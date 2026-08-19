@@ -132,7 +132,8 @@ function prepareQuestions() {
       attempts: 0,
       selectedIndices: [],
       status: 'not-visited', // 'not-visited', 'answered', 'wrong', 'review'
-      isCorrect: false
+      isCorrect: false,
+      firstTryCorrect: false
     };
   });
 }
@@ -241,18 +242,24 @@ function renderAttemptBanner(state) {
   const banner = document.getElementById('attempt-status-banner');
   banner.className = 'attempt-status-banner';
 
-  if (state.isCorrect) {
+  if (state.firstTryCorrect) {
     banner.classList.add('show', 'success');
-    banner.innerHTML = `<span>🎉 <strong>Correct Answer!</strong> Great job! Detailed solution is unlocked below.</span>`;
-  } else if (state.attempts === 1) {
+    banner.innerHTML = `<span>🎉 <strong>Correct on 1st Attempt! (+1 Mark)</strong> Detailed solution is unlocked below.</span>`;
+  } else if (state.attempts === 1 && !state.isCorrect) {
     banner.classList.add('show', 'warning');
-    banner.innerHTML = `<span>⚠️ <strong>Incorrect attempt!</strong> You have 1 remaining chance to retry this question.</span>`;
-  } else if (state.attempts >= 2) {
+    banner.innerHTML = `<span>⚠️ <strong>Incorrect 1st Attempt!</strong> You lost the 1 mark for this question. You have 1 remaining chance to retry and unlock the solution.</span>`;
+  } else if (state.attempts >= 2 && state.isCorrect) {
+    banner.classList.add('show', 'warning');
+    banner.style.backgroundColor = '#eff6ff';
+    banner.style.borderColor = '#93c5fd';
+    banner.style.color = '#1e40af';
+    banner.innerHTML = `<span>💡 <strong>Correct on 2nd Attempt!</strong> Solution unlocked. <em>(0 marks awarded because 1st attempt was incorrect)</em></span>`;
+  } else if (state.attempts >= 2 && !state.isCorrect) {
     banner.classList.add('show', 'warning');
     banner.style.backgroundColor = '#fef2f2';
     banner.style.borderColor = '#fca5a5';
     banner.style.color = '#991b1b';
-    banner.innerHTML = `<span>❌ <strong>Maximum attempts used.</strong> The correct answer and step-by-step solution are shown below.</span>`;
+    banner.innerHTML = `<span>❌ <strong>Maximum attempts used (0 marks).</strong> The correct answer and step-by-step solution are shown below.</span>`;
   } else {
     banner.classList.remove('show');
   }
@@ -270,7 +277,7 @@ function handleOptionClick(optIdx) {
   // If question is already finished (correctly answered OR 2 wrong attempts)
   if (state.isCorrect || state.attempts >= 2) return;
 
-  // Don't allow re-clicking an already clicked wrong option in attempt 1
+  // Don't allow re-clicking an already clicked wrong option
   if (state.selectedIndices.includes(optIdx)) return;
 
   state.attempts++;
@@ -278,13 +285,30 @@ function handleOptionClick(optIdx) {
 
   const isCorrect = (optIdx === q.correctIndex);
 
-  if (isCorrect) {
-    state.isCorrect = true;
-    state.status = 'answered';
-    playRightCelebrationSound();
-  } else {
-    state.status = 'wrong';
-    playWrongSadSound();
+  if (state.attempts === 1) {
+    if (isCorrect) {
+      state.isCorrect = true;
+      state.firstTryCorrect = true; // Earns +1 Mark
+      state.status = 'answered';
+      playRightCelebrationSound();
+    } else {
+      state.isCorrect = false;
+      state.firstTryCorrect = false; // Lost 1 Mark
+      state.status = 'wrong';
+      playWrongSadSound();
+    }
+  } else if (state.attempts === 2) {
+    if (isCorrect) {
+      state.isCorrect = true;
+      state.firstTryCorrect = false; // 0 Marks awarded
+      state.status = 'answered';
+      playRightCelebrationSound();
+    } else {
+      state.isCorrect = false;
+      state.firstTryCorrect = false;
+      state.status = 'wrong';
+      playWrongSadSound();
+    }
   }
 
   // Refresh UI
@@ -507,7 +531,8 @@ function submitTest() {
   clearInterval(timerInterval);
 
   let totalScore = 0;
-  let correctCount = 0;
+  let firstTryCorrectCount = 0;
+  let secondTryCorrectCount = 0;
   let wrongCount = 0;
 
   let secStats = {
@@ -518,10 +543,12 @@ function submitTest() {
 
   activeQuestions.forEach(q => {
     const st = userState[q.displayId];
-    if (st.isCorrect) {
+    if (st.firstTryCorrect) {
       totalScore += 1;
-      correctCount++;
+      firstTryCorrectCount++;
       secStats[q.section].correct++;
+    } else if (st.isCorrect) {
+      secondTryCorrectCount++;
     } else if (st.attempts > 0) {
       wrongCount++;
     }
@@ -536,16 +563,20 @@ function submitTest() {
         <div class="score-card-lbl">Total Score</div>
       </div>
       <div class="score-card">
-        <div class="score-card-val" style="color: var(--success-color);">${correctCount}</div>
-        <div class="score-card-lbl">Correct Answers</div>
+        <div class="score-card-val" style="color: var(--success-color);">${firstTryCorrectCount}</div>
+        <div class="score-card-lbl">1st Try Correct (+1)</div>
+      </div>
+      <div class="score-card">
+        <div class="score-card-val" style="color: #3b82f6;">${secondTryCorrectCount}</div>
+        <div class="score-card-lbl">2nd Try Solved (0)</div>
       </div>
       <div class="score-card">
         <div class="score-card-val" style="color: var(--danger-color);">${wrongCount}</div>
-        <div class="score-card-lbl">Wrong Attempts</div>
+        <div class="score-card-lbl">Unsolved / Wrong</div>
       </div>
     </div>
 
-    <h4 style="margin-top: 10px; font-weight: 700; color: #0f4c81; font-size: 0.9rem;">Section Breakdown</h4>
+    <h4 style="margin-top: 10px; font-weight: 700; color: #0f4c81; font-size: 0.9rem;">Section Breakdown (1st Attempt Score)</h4>
     <table class="section-score-table">
       <thead>
         <tr>
@@ -557,17 +588,17 @@ function submitTest() {
       <tbody>
         <tr>
           <td>Physical Chemistry (35)</td>
-          <td>${secStats["Physical Chemistry"].correct}</td>
+          <td>${secStats["Physical Chemistry"].correct} / 35</td>
           <td>${((secStats["Physical Chemistry"].correct / 35) * 100).toFixed(1)}%</td>
         </tr>
         <tr>
           <td>Inorganic Chemistry (35)</td>
-          <td>${secStats["Inorganic Chemistry"].correct}</td>
+          <td>${secStats["Inorganic Chemistry"].correct} / 35</td>
           <td>${((secStats["Inorganic Chemistry"].correct / 35) * 100).toFixed(1)}%</td>
         </tr>
         <tr>
           <td>Organic Chemistry (30)</td>
-          <td>${secStats["Organic Chemistry"].correct}</td>
+          <td>${secStats["Organic Chemistry"].correct} / 30</td>
           <td>${((secStats["Organic Chemistry"].correct / 30) * 100).toFixed(1)}%</td>
         </tr>
       </tbody>
