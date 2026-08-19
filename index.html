@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Optimized viewport meta for mobile responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>URAT PG 2026 - Entrance Examination Portal (Chemistry)</title>
+  <!-- Modern Google Font Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Particle Canvas for Celebration Sparks -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- EXAM HEADER -->
+  <header class="exam-header">
+    <div class="brand-section">
+      <div class="exam-logo">U</div>
+      <div class="exam-title-box">
+        <h1>URAT PG 2026</h1>
+        <p>M.Sc. Chemistry &nbsp;|&nbsp; <span class="date-badge">21 AUG 2026</span></p>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <button id="sound-toggle-btn" class="sound-toggle-btn">
+        <span id="sound-icon">🔊</span>
+        <span id="sound-label">ON</span>
+      </button>
+
+      <div class="timer-box">
+        <div class="timer-label">Time Remaining</div>
+        <div id="timer-display" class="timer-display">02:00:00</div>
+      </div>
+
+      <div class="candidate-profile">
+        <div class="candidate-avatar">PG</div>
+        <div class="candidate-info">
+          <p>URAT Aspirant</p>
+          <p>Roll: 2026082101</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SCROLLABLE SECTION NAVIGATION TABS -->
+  <nav class="section-nav">
+    <div class="section-tabs">
+      <button class="tab-btn active" data-section="All">
+        All Sections <span class="section-badge-count">100</span>
+      </button>
+      <button class="tab-btn" data-section="Physical Chemistry">
+        Section A: Physical <span class="section-badge-count">35</span>
+      </button>
+      <button class="tab-btn" data-section="Inorganic Chemistry">
+        Section B: Inorganic <span class="section-badge-count">35</span>
+      </button>
+      <button class="tab-btn" data-section="Organic Chemistry">
+        Section C: Organic <span class="section-badge-count">30</span>
+      </button>
+    </div>
+
+    <div class="exam-controls-top">
+      <button id="btn-restart" class="btn-utility">
+        🔄 Shuffle Test
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN EXAMINATION LAYOUT -->
+  <main class="main-wrapper">
+    
+    <!-- QUESTION & ANSWER PANEL -->
+    <section class="question-container">
+      <div class="question-header">
+        <div class="question-meta-row">
+          <span id="current-q-num" class="question-num-badge">Question 1 of 100</span>
+          <span id="current-section-tag" class="section-tag">Physical Chemistry (Section A)</span>
+        </div>
+        <div class="marks-info">
+          Marks: <span>+1.00</span> | Negative: <span>0.00</span>
+        </div>
+      </div>
+
+      <!-- ATTEMPT / CHANCE BANNER -->
+      <div id="attempt-status-banner" class="attempt-status-banner"></div>
+
+      <!-- QUESTION TEXT -->
+      <div id="question-text" class="question-text-box">
+        Loading question...
+      </div>
+
+      <!-- MULTIPLE CHOICE OPTIONS -->
+      <div id="options-list" class="options-list">
+        <!-- Option Cards dynamically populated by JS -->
+      </div>
+
+      <!-- DETAILED STEP-BY-STEP EXPLANATION DRAWER -->
+      <div id="explanation-box" class="explanation-box">
+        <div class="explanation-header">
+          💡 Step-by-Step Detailed Solution:
+        </div>
+        <div id="explanation-content" class="explanation-content">
+          <!-- Explanation HTML inserted by JS -->
+        </div>
+      </div>
+
+      <!-- DESKTOP BOTTOM ACTION BUTTONS -->
+      <div class="desktop-actions">
+        <div class="left-actions" style="display: flex; gap: 10px;">
+          <button id="btn-review-desk" class="btn" style="background: var(--warning-bg); color: #b45309; border: 1px solid #fde68a;">
+            📌 Mark for Review & Next
+          </button>
+          <button id="btn-clear-desk" class="btn" style="background: #ffffff; color: var(--danger-color); border: 1px solid #fca5a5;">
+            🧹 Clear Response
+          </button>
+        </div>
+
+        <div class="right-actions" style="display: flex; gap: 10px;">
+          <button id="btn-prev-desk" class="btn btn-secondary">
+            ⬅️ Previous
+          </button>
+          <button id="btn-next-desk" class="btn btn-primary">
+            Save & Next ➡️
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PALETTE SIDEBAR (DESKTOP) -->
+    <aside class="palette-sidebar desktop-only" id="desktop-palette">
+      <div class="palette-header">
+        <span>Question Palette</span>
+        <span style="font-size: 0.8rem; font-weight: 500; color: var(--text-muted);">100 Questions</span>
+      </div>
+
+      <!-- PALETTE LEGEND -->
+      <div class="palette-legend">
+        <div class="legend-item">
+          <div class="legend-box answered" id="legend-answered-cnt">0</div>
+          <span>Answered</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-box wrong" id="legend-wrong-cnt">0</div>
+          <span>Wrong Attempt</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-box review" id="legend-review-cnt">0</div>
+          <span>Marked Review</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-box not-visited" id="legend-unvisited-cnt">100</div>
+          <span>Not Visited</span>
+        </div>
+      </div>
+
+      <!-- GRID OF QUESTION BUTTONS -->
+      <div class="palette-grid-wrapper">
+        <div id="palette-grid" class="palette-grid">
+          <!-- Question Buttons 1-100 populated by JS -->
+        </div>
+      </div>
+
+      <!-- SUBMIT TEST BUTTON -->
+      <div class="submit-test-box" style="padding-top: 12px; border-top: 1px solid var(--border-color);">
+        <button id="btn-submit-main" class="btn-submit-full">
+          🚀 Submit Examination
+        </button>
+      </div>
+    </aside>
+  </main>
+
+  <!-- MOBILE STICKY BOTTOM NAVIGATION BAR -->
+  <div class="mobile-bottom-bar">
+    <button id="btn-prev-mob" class="bottom-action-btn">
+      <span class="btn-icon">⬅️</span>
+      <span>Prev</span>
+    </button>
+    <button id="btn-review-mob" class="bottom-action-btn warning">
+      <span class="btn-icon">📌</span>
+      <span>Review</span>
+    </button>
+    <button id="btn-clear-mob" class="bottom-action-btn">
+      <span class="btn-icon">🧹</span>
+      <span>Clear</span>
+    </button>
+    <button id="btn-palette-toggle" class="bottom-action-btn">
+      <span class="btn-icon">📱</span>
+      <span>Palette</span>
+    </button>
+    <button id="btn-next-mob" class="bottom-action-btn primary">
+      <span class="btn-icon">➡️</span>
+      <span>Next</span>
+    </button>
+  </div>
+
+  <!-- MOBILE BOTTOM SHEET DRAWER FOR QUESTION PALETTE -->
+  <div id="palette-drawer" class="palette-drawer-overlay">
+    <div class="palette-drawer-content">
+      <div class="palette-header">
+        <span>📱 Question Palette (100 Questions)</span>
+        <button id="btn-close-drawer" style="background: none; border: none; font-size: 1.4rem; color: #64748b; cursor: pointer;">&times;</button>
+      </div>
+
+      <div class="palette-legend">
+        <div class="legend-item">
+          <div class="legend-box answered" id="legend-answered-mob">0</div>
+          <span>Answered</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-box wrong" id="legend-wrong-mob">0</div>
+          <span>Wrong Attempt</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-box review" id="legend-review-mob">0</div>
+          <span>Review</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-box not-visited" id="legend-unvisited-mob">100</div>
+          <span>Not Visited</span>
+        </div>
+      </div>
+
+      <div class="palette-grid-wrapper">
+        <div id="palette-grid-mob" class="palette-grid">
+          <!-- Question Buttons populated by JS -->
+        </div>
+      </div>
+
+      <button id="btn-submit-mob" class="btn-submit-full" style="margin-top: 6px;">
+        🚀 Submit Examination
+      </button>
+    </div>
+  </div>
+
+  <!-- SUBMISSION & RESULT SCORECARD MODAL -->
+  <div id="submit-modal" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="modal-title">Confirm Submission</h2>
+        <button id="btn-close-modal" style="background: none; border: none; color: white; font-size: 1.4rem; cursor: pointer;">&times;</button>
+      </div>
+
+      <div id="modal-body-content" class="modal-body">
+        <p style="font-size: 0.9rem; color: #475569;">Are you sure you want to submit your URAT PG 2026 Examination? Response summary:</p>
+        
+        <div class="score-summary-grid">
+          <div class="score-card">
+            <div id="sum-answered" class="score-card-val" style="color: var(--success-color);">0</div>
+            <div class="score-card-lbl">Answered</div>
+          </div>
+          <div class="score-card">
+            <div id="sum-wrong" class="score-card-val" style="color: var(--danger-color);">0</div>
+            <div class="score-card-lbl">Wrong Attempts</div>
+          </div>
+          <div class="score-card">
+            <div id="sum-review" class="score-card-val" style="color: var(--review-color);">0</div>
+            <div class="score-card-lbl">Marked Review</div>
+          </div>
+          <div class="score-card">
+            <div id="sum-unvisited" class="score-card-val">100</div>
+            <div class="score-card-lbl">Not Visited</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="btn-restart-from-modal" class="btn btn-secondary">
+          🔄 Retake Test
+        </button>
+        <button id="btn-confirm-submit" class="btn btn-success">
+          ✅ Confirm & Finish
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
