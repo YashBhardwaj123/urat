@@ -536,9 +536,9 @@ function submitTest() {
   let wrongCount = 0;
 
   let secStats = {
-    "Physical Chemistry": { total: 35, correct: 0 },
-    "Inorganic Chemistry": { total: 35, correct: 0 },
-    "Organic Chemistry": { total: 30, correct: 0 }
+    "Inorganic Chemistry": { total: 33, correct: 0 },
+    "Organic Chemistry": { total: 34, correct: 0 },
+    "Physical & Analytical Chemistry": { total: 33, correct: 0 }
   };
 
   activeQuestions.forEach(q => {
@@ -546,7 +546,7 @@ function submitTest() {
     if (st.firstTryCorrect) {
       totalScore += 1;
       firstTryCorrectCount++;
-      secStats[q.section].correct++;
+      if (secStats[q.section]) secStats[q.section].correct++;
     } else if (st.isCorrect) {
       secondTryCorrectCount++;
     } else if (st.attempts > 0) {
@@ -587,19 +587,19 @@ function submitTest() {
       </thead>
       <tbody>
         <tr>
-          <td>Physical Chemistry (35)</td>
-          <td>${secStats["Physical Chemistry"].correct} / 35</td>
-          <td>${((secStats["Physical Chemistry"].correct / 35) * 100).toFixed(1)}%</td>
+          <td>Inorganic Chemistry (33)</td>
+          <td>${secStats["Inorganic Chemistry"].correct} / 33</td>
+          <td>${((secStats["Inorganic Chemistry"].correct / 33) * 100).toFixed(1)}%</td>
         </tr>
         <tr>
-          <td>Inorganic Chemistry (35)</td>
-          <td>${secStats["Inorganic Chemistry"].correct} / 35</td>
-          <td>${((secStats["Inorganic Chemistry"].correct / 35) * 100).toFixed(1)}%</td>
+          <td>Organic Chemistry (34)</td>
+          <td>${secStats["Organic Chemistry"].correct} / 34</td>
+          <td>${((secStats["Organic Chemistry"].correct / 34) * 100).toFixed(1)}%</td>
         </tr>
         <tr>
-          <td>Organic Chemistry (30)</td>
-          <td>${secStats["Organic Chemistry"].correct} / 30</td>
-          <td>${((secStats["Organic Chemistry"].correct / 30) * 100).toFixed(1)}%</td>
+          <td>Physical & Analytical Chemistry (33)</td>
+          <td>${secStats["Physical & Analytical Chemistry"].correct} / 33</td>
+          <td>${((secStats["Physical & Analytical Chemistry"].correct / 33) * 100).toFixed(1)}%</td>
         </tr>
       </tbody>
     </table>
