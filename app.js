@@ -176,7 +176,7 @@ function renderQuestion(index) {
   document.getElementById('current-q-num').innerText = `Question ${q.displayId} of ${activeQuestions.length}`;
   const hasDiagram = q.question.includes('svg-diagram-card') || q.question.includes('chem-diagram-box');
   const diagramTag = hasDiagram ? ' <span class="diagram-badge">📷 Diagram</span>' : '';
-  document.getElementById('current-section-tag').innerHTML = `${q.section} (Sec ${q.sectionId})${diagramTag}`;
+  document.getElementById('current-section-tag').innerHTML = `${q.section}${diagramTag}`;
   document.getElementById('question-text').innerHTML = q.question;
 
   // Render options
@@ -192,7 +192,7 @@ function renderQuestion(index) {
 
     const isSelected = state.selectedIndices.includes(optIdx);
     const isCorrectOpt = optIdx === q.correctIndex;
-    const isFinished = state.isCorrect || state.attempts >= 2;
+    const isFinished = state.selectedIndices.length > 0;
 
     if (isSelected) {
       card.classList.add('selected');
@@ -200,7 +200,7 @@ function renderQuestion(index) {
       else card.classList.add('incorrect');
     }
 
-    // Highlight correct answer if user exhausted 2 attempts and was wrong
+    // Highlight correct answer if option selected
     if (isFinished && isCorrectOpt) {
       card.classList.add('correct');
     }
@@ -221,9 +221,9 @@ function renderQuestion(index) {
   // Render attempt status banner
   renderAttemptBanner(state);
 
-  // Render explanation box (shown on RIGHT answer OR after 2nd attempt)
+  // Render explanation box (shown as soon as option is selected)
   const expBox = document.getElementById('explanation-box');
-  if (state.isCorrect || state.attempts >= 2) {
+  if (state.selectedIndices.length > 0) {
     expBox.classList.add('show');
     document.getElementById('explanation-content').innerHTML = q.explanation;
   } else {
@@ -244,31 +244,24 @@ function renderAttemptBanner(state) {
   const banner = document.getElementById('attempt-status-banner');
   banner.className = 'attempt-status-banner';
 
-  if (state.firstTryCorrect) {
-    banner.classList.add('show', 'success');
-    banner.innerHTML = `<span>🎉 <strong>Correct on 1st Attempt! (+1 Mark)</strong> Detailed solution is unlocked below.</span>`;
-  } else if (state.attempts === 1 && !state.isCorrect) {
-    banner.classList.add('show', 'warning');
-    banner.innerHTML = `<span>⚠️ <strong>Incorrect 1st Attempt!</strong> You lost the 1 mark for this question. You have 1 remaining chance to retry and unlock the solution.</span>`;
-  } else if (state.attempts >= 2 && state.isCorrect) {
-    banner.classList.add('show', 'warning');
-    banner.style.backgroundColor = '#eff6ff';
-    banner.style.borderColor = '#93c5fd';
-    banner.style.color = '#1e40af';
-    banner.innerHTML = `<span>💡 <strong>Correct on 2nd Attempt!</strong> Solution unlocked. <em>(0 marks awarded because 1st attempt was incorrect)</em></span>`;
-  } else if (state.attempts >= 2 && !state.isCorrect) {
-    banner.classList.add('show', 'warning');
-    banner.style.backgroundColor = '#fef2f2';
-    banner.style.borderColor = '#fca5a5';
-    banner.style.color = '#991b1b';
-    banner.innerHTML = `<span>❌ <strong>Maximum attempts used (0 marks).</strong> The correct answer and step-by-step solution are shown below.</span>`;
+  if (state.selectedIndices.length > 0) {
+    if (state.isCorrect) {
+      banner.classList.add('show', 'success');
+      banner.innerHTML = `<span>🎉 <strong>Correct Answer!</strong> Detailed solution & concept revision unlocked below.</span>`;
+    } else {
+      banner.classList.add('show', 'warning');
+      banner.style.backgroundColor = '#fff7ed';
+      banner.style.borderColor = '#fed7aa';
+      banner.style.color = '#c2410c';
+      banner.innerHTML = `<span>💡 <strong>Incorrect Selection!</strong> Review the correct answer and detailed explanation below for last-minute exam revision.</span>`;
+    }
   } else {
     banner.classList.remove('show');
   }
 }
 
 // --------------------------------------------------------------------------
-// OPTION SELECTION & RETRY LOGIC
+// OPTION SELECTION LOGIC (REVISION MODE)
 // --------------------------------------------------------------------------
 function handleOptionClick(optIdx) {
   initAudio();
@@ -276,41 +269,20 @@ function handleOptionClick(optIdx) {
   const q = activeQuestions[currentIndex];
   const state = userState[q.displayId];
 
-  // If question is already finished (correctly answered OR 2 wrong attempts)
-  if (state.isCorrect || state.attempts >= 2) return;
+  if (state.selectedIndices.length > 0) return;
 
-  // Don't allow re-clicking an already clicked wrong option
-  if (state.selectedIndices.includes(optIdx)) return;
-
-  state.attempts++;
+  state.attempts = 1;
   state.selectedIndices.push(optIdx);
 
   const isCorrect = (optIdx === q.correctIndex);
+  state.isCorrect = isCorrect;
+  state.firstTryCorrect = isCorrect;
+  state.status = isCorrect ? 'answered' : 'wrong';
 
-  if (state.attempts === 1) {
-    if (isCorrect) {
-      state.isCorrect = true;
-      state.firstTryCorrect = true; // Earns +1 Mark
-      state.status = 'answered';
-      playRightCelebrationSound();
-    } else {
-      state.isCorrect = false;
-      state.firstTryCorrect = false; // Lost 1 Mark
-      state.status = 'wrong';
-      playWrongSadSound();
-    }
-  } else if (state.attempts === 2) {
-    if (isCorrect) {
-      state.isCorrect = true;
-      state.firstTryCorrect = false; // 0 Marks awarded
-      state.status = 'answered';
-      playRightCelebrationSound();
-    } else {
-      state.isCorrect = false;
-      state.firstTryCorrect = false;
-      state.status = 'wrong';
-      playWrongSadSound();
-    }
+  if (isCorrect) {
+    playRightCelebrationSound();
+  } else {
+    playWrongSadSound();
   }
 
   // Refresh UI
