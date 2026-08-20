@@ -1,1403 +1,1389 @@
-// URATPG 2024 Official M.Sc. Chemistry Question Bank (100 Questions)
+// URATPG Inorganic Chemistry (2006-2008) Official Question Bank (99 Questions)
 const rawQuestions = [
   {
     "id": 1,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "H₃O⁺ molecule shape is similar to -",
+    "question": "The low solubility of BaSO\u2084 in water is due to :",
     "options": [
-      "ClF₃",
-      "BCl₃",
-      "NH₃",
-      "NO₃⁻"
+      "Low dissociation energy",
+      "Ionic bond",
+      "High value of lattice energy",
+      "High value of hydration energy"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In H₃O⁺, Oxygen has 6 valence e⁻ - 1 (positive charge) = 5 e⁻.<br>2. 3 bond pairs + 1 lone pair = Steric No. 4 (sp³ hybridization).<br>3. Ammonia (NH₃) also has 3 bond pairs + 1 lone pair.<br>4. Both exhibit a <strong>Trigonal Pyramidal</strong> molecular shape."
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. BaSO\u2084 contains a large Ba\u00b2\u207a cation and a large SO\u2084\u00b2\u207b anion.<br>2. Due to the matching large sizes of both ions, the lattice energy of BaSO\u2084 is exceptionally high.<br>3. Since Lattice Energy > Hydration Energy, BaSO\u2084 is practically insoluble in water."
   },
   {
     "id": 2,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "sp² hybridization is present in central atom of -",
+    "question": "Which of the following complexes has found to have square planar geometry and is diamagnetic also :",
     "options": [
-      "BeF₃⁻",
-      "NF₃",
-      "OF₂",
-      "H₃O⁺"
+      "[Ni(CO)\u2084]",
+      "[NiCl\u2084]\u00b2\u207b",
+      "[Ni(H\u2082O)\u2086]Cl\u2082",
+      "[Ni(CN)\u2084]\u00b2\u207b"
     ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In BeF₃⁻, Beryllium has 2 valence e⁻ + 1 = 3 e⁻.<br>2. Forms 3 single Be-F bonds with 0 lone pairs.<br>3. Steric Number = 3 ⇒ <strong>sp² hybridization</strong> (Trigonal planar)."
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In [Ni(CN)\u2084]\u00b2\u207b, Nickel is in the +2 oxidation state (3d\u2078 configuration).<br>2. Cyanide (CN\u207b) is a strong field ligand that forces pairing of all 8 d-electrons into 4 d-orbitals.<br>3. This leaves one empty 3d orbital, resulting in dsp\u00b2 hybridization (Square Planar geometry) and zero unpaired electrons (Diamagnetic)."
   },
   {
     "id": 3,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Which pair of metal ions is not isoelectronic?",
+    "question": "Which one out of the following is a correct statement in case of lanthanides :",
     "options": [
-      "Cr²⁺, Fe²⁺",
-      "Fe²⁺, Co³⁺",
-      "Mn²⁺, Fe³⁺",
-      "None of the above"
+      "The magnetic moment curve of trivalent ions is double humped",
+      "Ceric sulphate can not be used in redox reactions",
+      "Promethium (61) and its compounds normally simultaneously occur in nature.",
+      "Few lanthanides show +3 and +1 oxidation states in addition to their normal +2 and +4 oxidation states."
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Cr²⁺ (Z=24 - 2 = 22 e⁻) vs Fe²⁺ (Z=26 - 2 = 24 e⁻) ⇒ Different number of electrons.<br>2. Hence, <strong>Cr²⁺ and Fe²⁺ are NOT isoelectronic</strong>."
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. A plot of theoretical/experimental magnetic moments vs atomic number for trivalent lanthanide ions (Ln\u00b3\u207a) shows two distinct maxima (double humped curve).<br>2. The first peak occurs near Nd\u00b3\u207a / Pm\u00b3\u207a and the second peak near Dy\u00b3\u207a / Ho\u00b3\u207a due to spin-orbit coupling."
   },
   {
     "id": 4,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "In PCl₅ molecule Cl − P − Cl angles are -",
+    "question": "Which one is the correct statement :",
     "options": [
-      "120° and 90°",
-      "120° and 60°",
-      "90° and 60°",
-      "120° and 72°"
+      "Carbonyls are formed by the inner-transition metals only",
+      "Vanadium carbonyl does not follow the effective atomic number rule.",
+      "Elements of copper and zinc group from carbonyl compounds",
+      "In metal carbonyls the metal carbon bond distance is not shorter than the calculated M-C bond distance."
     ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. PCl₅ has Trigonal Bipyramidal geometry (sp³d hybridization).<br>2. Equatorial Cl-P-Cl bond angles = <strong>120°</strong>.<br>3. Axial-Equatorial Cl-P-Cl bond angles = <strong>90°</strong>."
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. V(CO)\u2086 has 23 (from V) + 12 (from 6 CO ligands) = 35 total valence electrons.<br>2. The nearest noble gas Krypton has 36 electrons, so V(CO)\u2086 is 1 electron short and does NOT obey the Effective Atomic Number (EAN / 18-electron) rule."
   },
   {
     "id": 5,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Geometry and number of geometrical isomers of [Pt(NH₃)(H₂O)Br Cl] molecule will be -",
+    "question": "Four ice cubes are pressed over each other to form one cube which force is responsible for holding them together :",
     "options": [
-      "Square planar and 2",
-      "Pyramidal and 2",
-      "Square planar and 3",
-      "Square planar and 4"
+      "Lattice energy",
+      "Van der Waal\u2019s force",
+      "Hydrogen bond formation",
+      "Dipole-dipole attraction"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Pt(II) complexes with 4 monodentate ligands adopt a <strong>Square Planar</strong> geometry.<br>2. Complexes of type [Mabcd] with 4 different ligands form <strong>3 geometrical isomers</strong>."
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. When pressure is applied to ice cubes, the melting point decreases and a thin film of water forms at the contact surfaces.<br>2. Upon releasing the pressure, the water refreezes and holds the cubes together via extensive <strong>Hydrogen bonding</strong>."
   },
   {
     "id": 6,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "The transition metal showing highest oxidation state among following is -",
+    "question": "Carbon atoms in C\u2082(CN)\u2084 are :",
     "options": [
-      "Pd",
-      "Os",
-      "Mn",
-      "Cr"
+      "sp-hybridised",
+      "sp\u00b2-hybridised",
+      "sp-and sp\u00b2-hybridised",
+      "sp, sp\u00b2-and sp\u00b3-hybridised"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Osmium (Os) exhibits an oxidation state of <strong>+8</strong> in OsO₄.<br>2. Manganese reaches +7 (KMnO₄), Chromium reaches +6 (CrO₃)."
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Structure of TCNE is (NC)\u2082C=C(CN)\u2082.<br>2. The central double-bonded carbons (=C=) are <strong>sp\u00b2 hybridised</strong>.<br>3. The cyano group carbons (-C\u2261N) are <strong>sp hybridised</strong>."
   },
   {
     "id": 7,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Among the following increasing order of magnetic moment is -",
+    "question": "According to Fajan\u2019s rule polarisation is more when :",
     "options": [
-      "V⁺⁴, Cr⁺³, Fe⁺², Ti⁺²",
-      "Fe⁺², Cr⁺³, V⁺⁴, Ti⁺²",
-      "Ti⁺², Cr⁺³, V⁺⁴, Fe⁺²",
-      "V⁺⁴, Ti⁺², Cr⁺³, Fe⁺²"
+      "Small cation and large anion",
+      "Small cation and small anion",
+      "Large cation and large anion",
+      "Large cation and small anion"
     ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. V⁺⁴ (3d¹, n=1, μ = 1.73 BM)<br>2. Ti⁺² (3d², n=2, μ = 2.83 BM)<br>3. Cr⁺³ (3d³, n=3, μ = 3.87 BM)<br>4. Fe⁺² (3d⁶ high-spin, n=4, μ = 4.90 BM)<br>5. Correct order: <strong>V⁺⁴ < Ti⁺² < Cr⁺³ < Fe⁺²</strong>."
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. High polarizing power requires a high charge density, achieved by a <strong>small cation</strong>.<br>2. High polarisability requires an easily deformable electron cloud, achieved by a <strong>large anion</strong>."
   },
   {
     "id": 8,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "On dissolving Barium in liquid ammonia -",
+    "question": "When sodium and chlorine react, energy is :",
     "options": [
-      "solution turns blue",
-      "solution remains colourless",
-      "solution becomes good conductor",
-      "A and C both are correct"
+      "released and ionic bond is formed",
+      "Released and non-polar bond is formed",
+      "Absorbed and covalent bond is formed",
+      "Absorbed and ionic bond is formed"
     ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Barium dissolves in liquid ammonia to form solvated metal cations and ammoniated electrons: <code>Ba + (x+2y)NH₃ → [Ba(NH₃)_x]²⁺ + 2[e(NH₃)_y]⁻</code>.<br>2. Ammoniated electrons absorb in IR/visible region giving a <strong>deep blue color</strong> and extremely high <strong>electrical conductivity</strong>."
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Reaction of Na (metal) and Cl\u2082 (non-metal) is highly exothermic: 2Na + Cl\u2082 \u2192 2NaCl (\u0394H < 0).<br>2. Complete electron transfer forms Na\u207a and Cl\u207b ions joined by a strong <strong>ionic bond</strong>."
   },
   {
     "id": 9,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Chemical name of washing soda is -",
+    "question": "The bond order of CO molecule on the basis of molecular orbital theory is :",
     "options": [
-      "Sodium hydroxide",
-      "Sodium chloride",
-      "Sodium hydrogen carbonate",
-      "Sodium carbonate"
+      "Zero",
+      "2",
+      "3",
+      "1"
     ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Washing soda is hydrated <strong>Sodium carbonate</strong> (Na₂CO₃·10H₂O)."
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. CO has 14 total electrons (isoelectronic with N\u2082).<br>2. MO configuration gives 10 bonding electrons and 4 antibonding electrons.<br>3. Bond Order = (10 - 4)/2 = <strong>3</strong>."
   },
   {
     "id": 10,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Hybridization of S in SO₂ is -",
+    "question": "The normality of 0.3 M phosphorus acid (H\u2083PO\u2083) is :",
     "options": [
-      "sp",
-      "sp²",
-      "sp³",
-      "dsp²"
+      "0.1",
+      "0.9",
+      "0.3",
+      "0.6"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. S in SO₂ forms 2 sigma bonds + 1 lone pair.<br>2. Steric Number = 3 ⇒ <strong>sp² hybridization</strong> (Bent V-shape)."
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. H\u2083PO\u2083 (Phosphorus acid) is a dibasic acid with 2 replaceable -OH protons (n = 2).<br>2. Normality = Molarity \u00d7 n-factor = 0.3 M \u00d7 2 = <strong>0.6 N</strong>."
   },
   {
     "id": 11,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Which elements will have lowest ionization potential in a period?",
+    "question": "Which of the following is not a magic number :",
     "options": [
-      "Halogens",
-      "Alkali metals",
-      "Inert gases",
-      "d-block elements"
+      "184",
+      "126",
+      "114",
+      "82"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Alkali metals (Group 1) have the largest atomic radii in their respective periods and readily lose 1 valence electron, possessing the <strong>lowest ionization potential</strong>."
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Standard nuclear magic numbers for extra stability are 2, 8, 20, 28, 50, 82, 126, and 184.<br>2. <strong>114</strong> is not a standard magic number."
   },
   {
     "id": 12,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "IUPAC name of Na₃[Fe(C₂O₄)₃] is -",
+    "question": "The chemical processes in the production of steel from haematite ore involve :",
     "options": [
-      "Sodium trioxalatoferrate (III)",
-      "Sodium tris (oxalato) iron (III)",
-      "Sodium trioxalatoiron (III)",
-      "Sodium tris (oxalato) ferrate (III)"
+      "Reduction",
+      "Oxidation",
+      "Reduction followed by oxidation",
+      "Oxidation followed by reduction"
     ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Cation: Sodium.<br>2. Complex anion: 3 oxalato ligands (trioxalato) + Ferrate(III).<br>3. Official IUPAC Name: <strong>Sodium trioxalatoferrate (III)</strong>."
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Haematite (Fe\u2082O\u2083) is reduced in a blast furnace to form pig iron (Reduction).<br>2. Pig iron is then refined by oxidizing excess carbon and impurities to yield steel (Oxidation)."
   },
   {
     "id": 13,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Which complex ion has smallest crystal field splitting (Δ_o)?",
+    "question": "On heating ammonium dichromate, the gas evolved is :",
     "options": [
-      "[Co(NH₃)₆]²⁺",
-      "[Co(NH₃)₆]³⁺",
-      "[Rh(NH₃)₆]³⁺",
-      "[Ir(NH₃)₆]³⁺"
+      "Oxygen",
+      "Ammonia",
+      "Nitrous-oxide",
+      "Nitrogen"
     ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Lower oxidation state (+2 vs +3) and 3d metal vs 4d/5d metals produce significantly smaller crystal field splitting Δ_o.<br>2. Hence, <strong>[Co(NH₃)₆]²⁺</strong> (+2 oxidation state) has the smallest Δ_o."
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Thermal decomposition: (NH\u2084)\u2082Cr\u2082O\u2087 \u2192 N\u2082 \u2191 + Cr\u2082O\u2083 + 4H\u2082O.<br>2. The gas evolved is <strong>Nitrogen (N\u2082)</strong>."
   },
   {
     "id": 14,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Formula of Plaster of Paris is -",
+    "question": "Which metal-catalyst is used to produce oxygen from bleaching powder :",
     "options": [
-      "CaSO₄",
-      "CaSO₄ · H₂O",
-      "CaSO₄ · ½ H₂O",
-      "CaSO₄ · 2H₂O"
+      "Pt",
+      "Pd",
+      "Ni",
+      "Co"
     ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Plaster of Paris is Calcium sulfate hemihydrate: <strong>CaSO₄ · ½ H₂O</strong>."
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Cobalt catalyst (Co\u00b2\u207a / Cobalt oxide) accelerates the catalytic decomposition of bleaching powder (CaOCl\u2082):<br><code>2CaOCl\u2082 \u2192 2CaCl\u2082 + O\u2082 \u2191</code>"
   },
   {
     "id": 15,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Which pair has same bond order?",
+    "question": "The number of P-O-P bonds in cyclic metaphosphoric acid may be :",
     "options": [
-      "O₂⁺, NO⁺",
-      "N₂, O₂",
-      "O₂²⁻, B₂",
-      "NO, CO"
+      "Zero",
+      "Two",
+      "Three",
+      "Four"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. O₂²⁻ (18 e⁻): BO = (10 - 8)/2 = <strong>1.0</strong>.<br>2. B₂ (10 e⁻): BO = (6 - 4)/2 = <strong>1.0</strong>.<br>3. Both species have an identical bond order of 1.0."
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Cyclic trimetaphosphoric acid, (HPO\u2083)\u2083, forms a 6-membered ring of alternating P and O atoms.<br>2. The structure contains exactly <strong>3 P-O-P linkages</strong>."
   },
   {
     "id": 16,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "With increase in temperature, viscosity of polysiloxanes (silicones) -",
+    "question": "One mole of calcium phosphide on reaction with excess water gives :",
     "options": [
-      "increases",
-      "does not change",
-      "decreases",
-      "first increase then becomes constant"
+      "One mole of phosphine",
+      "Two moles of phosphoric acid",
+      "Two moles of phosphine",
+      "One mole of phosphorous penta oxide"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Like most liquids, thermal motion overcomes intermolecular forces, causing viscosity of polysiloxanes to <strong>decrease</strong> with increasing temperature (though much less drastically than organic oils)."
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Hydrolysis reaction: Ca\u2083P\u2082 + 6H\u2082O \u2192 3Ca(OH)\u2082 + 2PH\u2083 \u2191.<br>2. One mole of Ca\u2083P\u2082 yields <strong>2 moles of phosphine (PH\u2083)</strong>."
   },
   {
     "id": 17,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "In a nuclear reactor, the heavy water D₂O is used as -",
+    "question": "In which compound \u03c0-bond results by the overlap between filled sp-hybrid orbital on C-atom of CO molecule and vacant dsp\u00b3-hybrid orbital of the metal atom :",
     "options": [
-      "Fuel",
-      "Accelerator",
-      "Moderator",
-      "Arrestor"
+      "Cr(CO)\u2086",
+      "Fe(CO)\u2085",
+      "Ni(CO)\u2084",
+      "V(CO)\u2086"
     ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Heavy water (D₂O) slows down fast neutrons to thermal energies to sustain nuclear fission, serving as a <strong>Moderator</strong>."
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Fe(CO)\u2085 has Trigonal Bipyramidal geometry with <strong>dsp\u00b3 hybridization</strong> at the central Fe atom."
   },
   {
     "id": 18,
-    "section": "Inorganic Chemistry",
+    "section": "2006 (Inorganic Chemistry)",
     "sectionId": "I",
-    "question": "Central metal present in Vitamin B₁₂ is -",
+    "question": "The number of neutrons accompanying the formation of \u00b9\u00b3\u2079\u2085\u2084Xe and \u2079\u2074\u2083\u2088Sr from the absorption of a slow neutron by \u00b2\u00b3\u2075\u2089\u2082U followed by nuclear fission is :",
     "options": [
-      "Co",
-      "Fe",
-      "Mg",
-      "Zn"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Vitamin B₁₂ (cyanocobalamin) contains central metal ion <strong>Cobalt (Co³⁺)</strong>."
-  },
-  {
-    "id": 19,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Oxidation state of iron in methemoglobin is -",
-    "options": [
-      "Four",
-      "Three",
-      "Two",
-      "Zero"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Methemoglobin is an oxidized form of hemoglobin where heme iron is oxidized from Fe²⁺ (ferrous) to <strong>Fe³⁺ (ferric / +3)</strong> state."
-  },
-  {
-    "id": 20,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Nitrogen fixation is conversion of atmospheric N₂ into -",
-    "options": [
-      "NH₃",
-      "NO₃⁻",
-      "Urea",
-      "NO₂"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Biological nitrogen fixation by nitrogenase enzymes converts atmospheric inert N₂ gas into <strong>Ammonia (NH₃)</strong>."
-  },
-  {
-    "id": 21,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "According to Crystal Field Theory Ni²⁺ can have two unpaired electrons in -",
-    "options": [
-      "Octahedral geometry only",
-      "Square planar geometry only",
-      "Both Tetrahedral geometry and Octahedral geometry",
-      "Both square planar and tetrahedral geometry"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Ni²⁺ is d⁸.<br>2. Octahedral: t2g⁶ eg² (2 unpaired e⁻).<br>3. Tetrahedral: e⁴ t2⁴ (2 unpaired e⁻).<br>4. Square planar: d8 low-spin (0 unpaired e⁻).<br>5. Therefore, Ni²⁺ has 2 unpaired e⁻ in <strong>both Tetrahedral and Octahedral geometries</strong>."
-  },
-  {
-    "id": 22,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Which of the following is paramagnetic?",
-    "options": [
-      "[Cr(CO)₆]",
-      "[Ni(CO)₄]",
-      "[NiCl₄]²⁻",
-      "[PtCl₄]²⁻"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. [NiCl₄]²⁻ contains Ni²⁺ (d⁸) in a tetrahedral field with weak Cl⁻ ligands (e⁴ t2⁴, n = 2 unpaired e⁻ ⇒ <strong>Paramagnetic</strong>)."
-  },
-  {
-    "id": 23,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "What is the hybridization of iron in ferrocyanide ion [Fe(CN)₆]⁴⁻?",
-    "options": [
-      "dsp²",
-      "sp²",
-      "sp³d",
-      "d²sp³"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In [Fe(CN)₆]⁴⁻, Fe²⁺ is 3d⁶.<br>2. Strong field CN⁻ forces pairing of 3d electrons, leaving 2 empty 3d, 1 4s, and 3 4p orbitals ⇒ <strong>d²sp³ inner orbital octahedral hybridization</strong>."
-  },
-  {
-    "id": 24,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Oxidation state of Cr in [Cr(NH₃)₄Cl₂]⁺ is -",
-    "options": [
-      "0",
-      "+1",
-      "+2",
-      "+3"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <code>x + 4(0) + 2(-1) = +1 ⇒ x = <strong>+3</strong></code>."
-  },
-  {
-    "id": 25,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Molecular formula of Oleum is -",
-    "options": [
-      "H₂S₂O₈",
-      "H₂S₂O₇",
-      "H₂SO₅",
-      "H₂SO₃"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Oleum (fuming sulfuric acid / pyrosulfuric acid) is <strong>H₂S₂O₇</strong>."
-  },
-  {
-    "id": 26,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Which among the following oxides is basic?",
-    "options": [
-      "CO₂",
-      "SO₂",
-      "N₂O",
-      "Na₂O"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Na₂O (Sodium oxide)</strong> reacts with water to form strong base NaOH, making it basic."
-  },
-  {
-    "id": 27,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Correct order of acidic strength is -",
-    "options": [
-      "HOCl < HClO < HClO₂ < HClO₃",
-      "HClO₃ < HClO₂ < HClO < HOCl",
-      "HOCl < HClO₂ < HClO₃ < HClO₄",
-      "HOCl < HClO₂ < HClO₃ < HOCl"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Acidic strength of oxoacids increases with increasing oxidation state and number of electronegative terminal oxygen atoms on Chlorine: <strong>HOCl (+1) < HClO₂ (+3) < HClO₃ (+5) < HClO₄ (+7)</strong>."
-  },
-  {
-    "id": 28,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Which pair of Lanthanide ions are colourless?",
-    "options": [
-      "Lu³⁺ and La³⁺",
-      "Ce³⁺ and Ce⁺⁴",
-      "Lu²⁺ and Ln²⁺",
-      "Pr⁺⁴ and Ce⁺⁴"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. La³⁺ (4f⁰, empty f-shell) and Lu³⁺ (4f¹⁴, completely filled f-shell) have zero f-f electronic transitions and are <strong>colourless</strong>."
-  },
-  {
-    "id": 29,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Among the following which Lanthanide ion is diamagnetic?",
-    "options": [
-      "Ce²⁺",
-      "Yb²⁺",
-      "Eu²⁺",
-      "Sm²⁺"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Yb²⁺ has electron configuration [Xe] 4f¹⁴ (completely filled f-subshell, zero unpaired e⁻ ⇒ <strong>Diamagnetic</strong>)."
-  },
-  {
-    "id": 30,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Percentage of silver present in alloy German silver is -",
-    "options": [
-      "50%",
-      "5%",
-      "1%",
-      "0%"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. German silver is a copper alloy containing Cu (50-60%), Zn (20-30%), and Ni (10-30%). It contains <strong>0% Silver</strong>."
-  },
-  {
-    "id": 31,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Radioactive element among following is -",
-    "options": [
-      "Pr",
-      "Tm",
-      "Pm",
-      "Gd"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Promethium (<strong>Pm, Z=61</strong>) is the only radioactive element in the lanthanide series."
-  },
-  {
-    "id": 32,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "General electronic configuration of actinide series is -",
-    "options": [
-      "[Xe] 4f⁰⁻¹⁴ 5d⁰⁻¹ 6s²",
-      "[Xe] 4f⁰⁻¹⁴ 5d⁰⁻¹⁰ 6s²",
-      "[Rn] 5f⁰⁻¹⁴ 6d⁰⁻¹⁰ 7s²",
-      "[Rn] 5f⁰⁻¹⁴ 6d⁰⁻¹ 7s²"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. The general ground state electron configuration of actinides is <strong>[Rn] 5f⁰⁻¹⁴ 6d⁰⁻¹ 7s²</strong>."
-  },
-  {
-    "id": 33,
-    "section": "Inorganic Chemistry",
-    "sectionId": "I",
-    "question": "Group reagent for analysis of basic radicals of group IV is -",
-    "options": [
-      "HCl + H₂S",
-      "NH₄OH + H₂S",
-      "NH₄Cl + NH₄OH + H₂S",
-      "NH₄OH + NH₄Cl"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Group IV cations (Co²⁺, Ni²⁺, Mn²⁺, Zn²⁺) precipitate as sulfides in alkaline medium using <strong>H₂S gas in presence of NH₄Cl and NH₄OH</strong>."
-  },
-  {
-    "id": 34,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which compound among the following is aromatic?<br><div class=\"svg-diagram-card\"><svg width=\"360\" height=\"120\" viewBox=\"0 0 360 120\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(10,10)\"><polygon points=\"40,20 70,70 10,70\" fill=\"none\" stroke=\"#0f4c81\" stroke-width=\"2.5\"/><line x1=\"22\" y1=\"62\" x2=\"58\" y2=\"62\" stroke=\"#0f4c81\" stroke-width=\"2.5\"/><circle cx=\"40\" cy=\"20\" r=\"8\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"40\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"12\" fill=\"#2563eb\">+</text><text x=\"40\" y=\"95\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"12\" fill=\"#0f4c81\">(A)</text></g><g transform=\"translate(100,10)\"><polygon points=\"10,45 35,20 65,20 90,45 65,70 35,70\" fill=\"none\" stroke=\"#0f4c81\" stroke-width=\"2.5\"/><line x1=\"35\" y1=\"20\" x2=\"65\" y2=\"70\" stroke=\"#0f4c81\" stroke-width=\"2\"/><line x1=\"20\" y1=\"45\" x2=\"40\" y2=\"62\" stroke=\"#0f4c81\" stroke-width=\"2\"/><line x1=\"80\" y1=\"45\" x2=\"60\" y2=\"28\" stroke=\"#0f4c81\" stroke-width=\"2\"/><text x=\"50\" y=\"95\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"12\" fill=\"#0f4c81\">(B)</text></g><g transform=\"translate(200,10)\"><polygon points=\"30,20 60,70 0,70\" fill=\"none\" stroke=\"#0f4c81\" stroke-width=\"2.5\"/><line x1=\"12\" y1=\"62\" x2=\"48\" y2=\"62\" stroke=\"#0f4c81\" stroke-width=\"2.5\"/><text x=\"30\" y=\"15\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"12\" fill=\"#0f172a\">N-H</text><text x=\"30\" y=\"95\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"12\" fill=\"#0f4c81\">(C)</text></g><g transform=\"translate(280,10)\"><polygon points=\"40,15 70,38 60,70 20,70 10,38\" fill=\"none\" stroke=\"#0f4c81\" stroke-width=\"2.5\"/><line x1=\"28\" y1=\"62\" x2=\"52\" y2=\"62\" stroke=\"#0f4c81\" stroke-width=\"2\"/><line x1=\"65\" y1=\"42\" x2=\"42\" y2=\"22\" stroke=\"#0f4c81\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"45\" r=\"8\" fill=\"#fef2f2\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><text x=\"40\" y=\"49\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"14\" fill=\"#ef4444\">−</text><text x=\"40\" y=\"95\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"12\" fill=\"#0f4c81\">(D)</text></g></svg></div>",
-    "options": [
-      "(A)",
-      "(B)",
-      "(C)",
-      "(D)"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Structure (A) is Cyclopropenyl cation.<br>2. It is cyclic, planar, fully conjugated, and contains 2 π electrons (4n+2 with n=0).<br>3. According to Huckel's rule, <strong>Cyclopropenyl cation (A) is Aromatic</strong>."
-  },
-  {
-    "id": 35,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Out of the following which one does not give alcohol on reduction with NaBH₄?",
-    "options": [
-      "CH₃CHO",
-      "H₃C−CO−CH₃",
-      "H₃C−CO−OCH₃",
-      "H₃C−CO−CH₂CH₃"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. NaBH₄ selectively reduces aldehydes and ketones to 1° and 2° alcohols.<br>2. Esters like methyl acetate (<strong>H₃C−CO−OCH₃</strong>) are unreactive towards NaBH₄ under standard conditions."
-  },
-  {
-    "id": 36,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Intermediate formed in following reaction is -<br><div class=\"svg-diagram-card\"><svg width=\"340\" height=\"90\" viewBox=\"0 0 340 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"20\" width=\"130\" height=\"50\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"75\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"14\" fill=\"#1e40af\">R−COOAg</text><line x1=\"150\" y1=\"45\" x2=\"220\" y2=\"45\" stroke=\"#0f4c81\" stroke-width=\"3\"/><path d=\"M 215 38 L 230 45 L 215 52 Z\" fill=\"#0f4c81\"/><text x=\"185\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"13\" fill=\"#0f4c81\">Br₂ / Δ</text><rect x=\"240\" y=\"20\" width=\"90\" height=\"50\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#10b981\" stroke-width=\"2\"/><text x=\"285\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"14\" fill=\"#166534\">R−Br</text></svg></div>",
-    "options": [
-      "Carbene",
-      "Carbocation",
-      "Free radical",
-      "Carbanion"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. The Hunsdiecker reaction of silver carboxylate with bromine undergoes homolytic cleavage of the acyl hypobromite O-Br bond.<br>2. The key reaction intermediate is a <strong>Free radical</strong> (alkyl radical R·)."
-  },
-  {
-    "id": 37,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which compound will show largest λ_max value in UV-Vis spectroscopy?",
-    "options": [
-      "Cyclohex-2-enone",
-      "Cyclohex-2,5-dienone",
-      "Cyclohex-2,4-dienone",
-      "1,4-Benzoquinone"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. According to Woodward-Fieser rules, <strong>Cyclohex-2,4-dienone</strong> has homoannular conjugated diene system extended by carbonyl group, producing the maximum red shift (highest λ_max)."
-  },
-  {
-    "id": 38,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Increase in intensity of absorption due to introduction of an Auxochrome in a system is called -",
-    "options": [
-      "Hypsochromic shift",
-      "Bathochromic shift",
-      "Hypochromic shift",
-      "Hyperchromic shift"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. An increase in molar absorptivity (ε_max / absorption intensity) is termed a <strong>Hyperchromic shift</strong>."
-  },
-  {
-    "id": 39,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Most stable carbocation is -<br><div class=\"svg-diagram-card\"><svg width=\"360\" height=\"120\" viewBox=\"0 0 360 120\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(10,10)\"><polygon points=\"40,20 70,40 70,70 40,90 10,70 10,40\" fill=\"none\" stroke=\"#0f4c81\" stroke-width=\"2\"/><line x1=\"70\" y1=\"55\" x2=\"100\" y2=\"55\" stroke=\"#0f4c81\" stroke-width=\"2\"/><line x1=\"100\" y1=\"55\" x2=\"120\" y2=\"35\" stroke=\"#0f4c81\" stroke-width=\"2\"/><text x=\"125\" y=\"35\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"12\" fill=\"#2563eb\">⁺CH₂</text><text x=\"50\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#0f4c81\">(A)</text></g><g transform=\"translate(180,10)\"><polygon points=\"40,20 70,40 70,70 40,90 10,70 10,40\" fill=\"none\" stroke=\"#0f4c81\" stroke-width=\"2\"/><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"90\" stroke=\"#0f4c81\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"55\" x2=\"100\" y2=\"55\" stroke=\"#0f4c81\" stroke-width=\"2\"/><text x=\"105\" y=\"58\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"12\" fill=\"#2563eb\">⁺CH−CH=CH₂</text><text x=\"60\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#0f4c81\">(C)</text></g></svg></div>",
-    "options": [
-      "Ph−CH=CH−CH₂⁺",
-      "Ph−CH₂−CH₂−CH₂⁺",
-      "Ph−CH⁺−CH=CH₂",
-      "Cyclohexyl−CH=CH−CH₂⁺"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Ph−CH⁺−CH=CH₂</strong> is simultaneously stabilized by resonance with both the aromatic benzene ring (benzylic) AND the allylic double bond, making it exceptionally stable."
-  },
-  {
-    "id": 40,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which of the following is a nucleophile?",
-    "options": [
-      "BF₃",
-      "H₃O⁺",
-      "AlCl₃",
-      "CN⁻"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Cyanide ion (<strong>CN⁻</strong>) carries an unshared lone pair and negative charge, acting as an electron-pair donor (nucleophile)."
-  },
-  {
-    "id": 41,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "IUPAC name of CH₃−CH(CH₃)−CO−CH₂−CH₂OH is -<br><div class=\"svg-diagram-card\"><svg width=\"240\" height=\"90\" viewBox=\"0 0 240 90\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 20 60 L 50 30 L 80 60 L 110 30 L 140 60 L 170 30 L 200 60\" fill=\"none\" stroke=\"#0f4c81\" stroke-width=\"3\"/><line x1=\"80\" y1=\"60\" x2=\"80\" y2=\"85\" stroke=\"#0f4c81\" stroke-width=\"2.5\"/><line x1=\"110\" y1=\"30\" x2=\"110\" y2=\"5\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><line x1=\"114\" y1=\"30\" x2=\"114\" y2=\"5\" stroke=\"#ef4444\" stroke-width=\"2.5\"/><text x=\"110\" y=\"0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"12\" fill=\"#ef4444\">O</text><text x=\"205\" y=\"65\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"14\" fill=\"#10b981\">OH</text></svg></div>",
-    "options": [
-      "2−methyl−3−oxopentanol",
-      "1−hydroxy−4−methylpentan−3−one",
-      "2−methyl−5−hydroxypentan−3−one",
-      "4−methyl−pentan−3−one−1−ol"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Principal functional group is Ketone (C=O at C-3), chain numbered from OH side: C1(OH) - C2 - C3(=O) - C4(CH₃) - C5.<br>2. IUPAC Name: <strong>1-hydroxy-4-methylpentan-3-one</strong>."
-  },
-  {
-    "id": 42,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Number of optical isomers of a compound having 3 unsymmetrical chiral centers is -",
-    "options": [
-      "6",
-      "4",
-      "8",
-      "9"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. For a molecule with n unsymmetrical chiral centers, total optical isomers = <code>2ⁿ = 2³ = <strong>8</strong></code>."
-  },
-  {
-    "id": 43,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "The compound which exhibits optical isomerism is -",
-    "options": [
-      "CH₃CH(OH)CH₃",
-      "(CH₃)₂CHCH₂CH₃",
-      "(CH₃)₂CH(OH)CH₃",
-      "CH₃CH(OH)CH₂CH₃"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Butan-2-ol (<strong>CH₃CH(OH)CH₂CH₃</strong>) possesses a chiral carbon atom (*CH) bonded to 4 different groups (-H, -OH, -CH₃, -CH₂CH₃)."
-  },
-  {
-    "id": 44,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which reagent can help in differentiation of 1-butyne and 2-butyne?",
-    "options": [
-      "O₂",
-      "Br₂",
-      "NaNH₂",
-      "HCl"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. 1-Butyne has an acidic terminal alkynyl hydrogen (CH₃CH₂C≡C-H) and reacts with <strong>NaNH₂</strong> to release H₂ gas, whereas 2-butyne has no terminal H."
-  },
-  {
-    "id": 45,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Product formed from oxidation of acetylene with alkaline KMnO₄ -",
-    "options": [
-      "Acetic acid",
-      "Oxalic acid",
-      "Ethylene glycol",
-      "Ethanol"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Oxidation of acetylene (HC≡CH) with cold alkaline KMnO₄ yields <strong>Oxalic acid (HOOC-COOH)</strong>."
-  },
-  {
-    "id": 46,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which set of substituents is all m-directing groups?",
-    "options": [
-      "−COCH₃, −CH₃, −NO₂",
-      "−Cl, −NH₂, −CH₃",
-      "−CHO, −CN, −SO₃H",
-      "−CN, −OH, −NH₂"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Formyl (-CHO), Cyano (-CN), and Sulfonic acid (-SO₃H) are all electron-withdrawing groups that direct electrophiles to the <strong>meta position</strong>."
-  },
-  {
-    "id": 47,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Identify the product in following reaction: C₆H₆ + CH₃CH=CH₂ --(H⁺)-->",
-    "options": [
-      "Phenylpropane",
-      "Propylbenzene",
-      "2-phenylpropane (Cumene)",
-      "1-phenylprop-2-ene"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Friedel-Crafts alkylation of benzene with propene forms isopropyl carbocation intermediate, yielding <strong>2-phenylpropane (Cumene)</strong>."
-  },
-  {
-    "id": 48,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "A drug that brings down the temperature in high fever is -",
-    "options": [
-      "Antibiotic",
-      "Pyretic",
-      "Antipyretic",
-      "Analgesic"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Antipyretic</strong> medications (e.g. Paracetamol) lower body temperature during high fever."
-  },
-  {
-    "id": 49,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which one of the following is a basic dye?",
-    "options": [
-      "Congo red",
-      "Alizarin",
-      "Indigo",
-      "Aniline yellow"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Aniline yellow</strong> (4-phenylazoaniline) contains basic amino (-NH₂) groups, making it a basic dye."
-  },
-  {
-    "id": 50,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "The catalyst used in anionic polymerization is -",
-    "options": [
-      "Lewis acid",
-      "Grignard reagent",
-      "Benzoyl peroxide",
-      "Sodamide"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Strong bases like <strong>Sodamide (NaNH₂)</strong> initiate anionic polymerization by generating carbanion chain ends."
-  },
-  {
-    "id": 51,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which of the following is purine base found in RNA?",
-    "options": [
-      "Guanine",
-      "Uracil",
-      "Thymine",
-      "Cytosine"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Guanine</strong> is a bicyclic purine nitrogenous base present in both DNA and RNA."
-  },
-  {
-    "id": 52,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Protein synthesis happens by process -",
-    "options": [
-      "Formation of mRNA from DNA template",
-      "Direct formation of amino acid from DNA template",
-      "Formation of amino acids from mRNA",
-      "Duplication of DNA"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Translation synthesizes polypeptide chains of <strong>amino acids from mRNA template</strong> sequence."
-  },
-  {
-    "id": 53,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which pair of carbohydrates is Epimers?",
-    "options": [
-      "Fructose and Glucose",
-      "Glucose and Galactose",
-      "Glucose and Ribose",
-      "Mannose and Glucose"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. D-Glucose and D-Galactose differ in configuration only at C-4, making them <strong>C-4 Epimers</strong>."
-  },
-  {
-    "id": 54,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "The product of following reaction is: 2 C₆H₅CH₂COOEt --(NaOEt / EtOH)-->",
-    "options": [
-      "C₆H₅-CH₂-C(=O)-OCH(Ph)-COOEt",
-      "C₆H₅-CH₂-C(=O)-CH₂-C-C₆H₅",
-      "C₆H₅CH₂C(=O)-CH(C₆H₅)-COOEt",
-      "C₆H₅-CH₂-C(=O)-CH(C₆H₅)-OEt"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Claisen condensation of ethyl phenylacetate yields β-keto ester <strong>C₆H₅CH₂CO-CH(C₆H₅)COOEt</strong>."
-  },
-  {
-    "id": 55,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Reaction of pyrrole with Br₂ in ethanol gives -",
-    "options": [
-      "2, 3, 4, 5 – tetrabromopyrrole",
-      "2, 3 – dibromopyrrole",
-      "2, 5 – dibromopyrrole",
-      "3, 4 – dibromopyrrole"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Highly reactive pyrrole ring undergoes halogenation at all 4 carbon positions to form <strong>2,3,4,5-tetrabromopyrrole</strong>."
-  },
-  {
-    "id": 56,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Synthesis of Indole by reaction of phenylhydrazine and a carbonyl compound is known as -",
-    "options": [
-      "Bartoli Indole synthesis",
-      "Bischler Indole synthesis",
-      "Reissert Indole synthesis",
-      "Fischer Indole synthesis"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Acid-catalyzed condensation of phenylhydrazones of aldehydes/ketones into indoles is the <strong>Fischer Indole Synthesis</strong>."
-  },
-  {
-    "id": 57,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which out of the following compounds shows cis-trans isomerism?",
-    "options": [
-      "CH₃−CH=CH₂",
-      "ClCH=C(CH₃)₂",
-      "Cl−CH=CH−Cl",
-      "ClHC=C=CH₂"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. 1,2-Dichloroethene (<strong>Cl-CH=CH-Cl</strong>) has different groups on both sp² carbons, forming geometric cis and trans isomers."
-  },
-  {
-    "id": 58,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Products of the following reaction are: C₆H₅CHO + HCHO --(NaOH, H₂O / Δ)-->",
-    "options": [
-      "HCOONa + C₆H₅COONa",
-      "CH₃OH + C₆H₅CH₂OH",
-      "HCOONa + C₆H₅CH₂OH",
-      "CH₃OH + C₆H₅COONa"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Crossed Cannizzaro reaction: Formaldehyde is oxidized to <strong>HCOONa</strong>, and benzaldehyde is reduced to <strong>C₆H₅CH₂OH (Benzyl alcohol)</strong>."
-  },
-  {
-    "id": 59,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Sodium benzoate on heating with soda lime (NaOH+CaO) gives -",
-    "options": [
-      "Calcium benzoate",
-      "Benzene",
-      "Benzoic acid",
-      "None of the above"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Soda lime decarboxylation: <code>C₆H₅COONa + NaOH --(CaO/Δ)--> C₆H₆ (Benzene) + Na₂CO₃</code>."
-  },
-  {
-    "id": 60,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Hoffmann degradation reaction is shown by -",
-    "options": [
-      "Ar CH₂ NH₂",
-      "Ar CO NH₂",
-      "Ar CH₂ NO₂",
-      "Ar NH₂"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Hofmann bromamide degradation degrades 1° acid amides (<strong>Ar CONH₂</strong>) into primary amines."
-  },
-  {
-    "id": 61,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "pKb value of aromatic amine (e.g. Aniline) is -",
-    "options": [
-      "Less than 1",
-      "1 to 3.0",
-      "3.0 to 4.2",
-      "4.2 and above"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Nitrogen lone pair delocalization into benzene ring reduces basicity of aromatic amines (Aniline pKb = 9.38 ⇒ <strong>4.2 and above</strong>)."
-  },
-  {
-    "id": 62,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Identify the compound A in given reaction: A --(HNO₂)--> B --(Al₂O₃ / Δ)--> CH₂=CH₂",
-    "options": [
-      "C₂H₅OH",
-      "C₂H₅Cl",
-      "C₂H₅NH₂",
-      "C₂H₅COOH"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Ethylamine (<strong>C₂H₅NH₂</strong>) + HNO₂ → Ethanol (C₂H₅OH).<br>2. Ethanol --(Al₂O₃/Δ)--> Ethene (CH₂=CH₂)."
-  },
-  {
-    "id": 63,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "IUPAC name of CH₂=CH−CN is -",
-    "options": [
-      "Vinyl cyanide",
-      "Cyanoethane",
-      "Ethenenitrile",
-      "Prop-2-enenitrile"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. 3-carbon chain containing nitrile C-1 and C=C double bond: <strong>Prop-2-enenitrile</strong> (or Propenenitrile)."
-  },
-  {
-    "id": 64,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Most reactive substrate among following for nucleophilic substitution reaction -",
-    "options": [
-      "CH₂=CH−Cl",
-      "C₆H₅Cl",
-      "ClCH₂−CH=CH₂",
-      "CH₃−CH=CH−Cl"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Allyl chloride (<strong>ClCH₂-CH=CH₂</strong>) undergoes rapid SN1 and SN2 substitutions due to allylic resonance stabilization."
-  },
-  {
-    "id": 65,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "What is formed on heating chloroform with silver powder?",
-    "options": [
-      "C₂H₄",
-      "C₂H₂",
-      "CH₄",
-      "C₂H₆"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <code>2 CHCl₃ + 6 Ag --(Δ)--> CH≡CH (Acetylene / C₂H₂) + 6 AgCl</code>."
-  },
-  {
-    "id": 66,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Which reaction can yield methanol and formic acid from formaldehyde?",
-    "options": [
-      "Cannizzaro",
-      "Clemmensen",
-      "Hoffmann",
-      "Wolf-Kishner"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Disproportionation of formaldehyde (HCHO) in alkaline medium gives <strong>Methanol and Formate ion (Cannizzaro reaction)</strong>."
-  },
-  {
-    "id": 67,
-    "section": "Organic Chemistry",
-    "sectionId": "II",
-    "question": "Malachite green dye is obtained by condensation of -",
-    "options": [
-      "Benzaldehyde and N-methylaniline",
-      "Formaldehyde and N-methylaniline",
-      "Benzaldehyde and N,N-dimethylaniline",
-      "Formaldehyde and N,N-dimethylaniline"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Condensation of 1 mole Benzaldehyde with 2 moles N,N-dimethylaniline yields <strong>Malachite green dye</strong>."
-  },
-  {
-    "id": 68,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Which of the following is an exothermic process?",
-    "options": [
-      "Na → Na⁺ + e",
-      "O + e → O⁻",
-      "O⁻ + e → O⁻²",
-      "Cl⁻ → Cl + e"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. First electron affinity of Oxygen (<strong>O + e⁻ → O⁻</strong>) releases energy (ΔH < 0, exothermic)."
-  },
-  {
-    "id": 69,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Which gas will have highest rate of diffusion among following?",
-    "options": [
-      "O₂",
-      "NH₃",
-      "N₂",
-      "CO₂"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Graham's law: <code>Rate ∝ 1 / √(Molar Mass)</code>.<br>2. <strong>NH₃</strong> has the lowest molar mass (17 g/mol), giving it the highest rate of diffusion."
-  },
-  {
-    "id": 70,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Which of the following is correct gas equation?",
-    "options": [
-      "(V₁T₂)/P₁ = (V₂T₁)/P₂",
-      "(P₁V₁)/(P₂V₂) = T₁/T₂",
-      "(P₁V₁)/T₁ = (P₂V₂)/T₂",
-      "(V₁V₂)/(T₁T₂) = P₁P₂"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Combined gas law: <strong>(P₁V₁)/T₁ = (P₂V₂)/T₂</strong>."
-  },
-  {
-    "id": 71,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "In a first order reaction a reactant is reduced to ⅓ in 50 sec, after 150 sec. The amount will reduce to -",
-    "options": [
-      "1/9",
-      "1/27",
-      "1/81",
-      "No change"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. 150 sec = 3 equal intervals of 50 sec.<br>2. Amount remaining = <code>(⅓)³ = <strong>1/27</strong></code>."
-  },
-  {
-    "id": 72,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "At equilibrium, number of phases present in following reaction are: CaCO₃(s) ⇌ CaO(s) + CO₂(g)",
-    "options": [
+      "Zero",
+      "2",
       "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. System contains 2 distinct solid phases (CaCO₃, CaO) and 1 gas phase (CO₂) ⇒ <strong>3 phases</strong>."
-  },
-  {
-    "id": 73,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Presence of three unpaired electrons in nitrogen atom is explained by -",
-    "options": [
-      "Aufbau principle",
-      "Pauli's exclusion principle",
-      "Hund's rule",
-      "Heisenberg uncertainty principle"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Hund's rule of maximum multiplicity</strong> states that degenerate orbitals are singly occupied with parallel spins before pairing."
-  },
-  {
-    "id": 74,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Energy of a particle in one dimensional box is represented by -",
-    "options": [
-      "E = n²h² / (8ma²)",
-      "E = n²h² / (4ma²)",
-      "E = n²h / (8ma²)",
-      "E = nh² / (8ma²)"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Energy formula for 1D particle in box: <strong>E = n²h² / (8ma²)</strong>."
-  },
-  {
-    "id": 75,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Active mass of 2g hydrogen gas kept in 2 litre volume flask is -",
-    "options": [
-      "1 mole / litre",
-      "0.5 mole / litre",
-      "2 mole / litre",
-      "4 mole / litre"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Moles of H₂ = 2 g / (2 g/mol) = 1 mol.<br>2. Concentration = 1 mol / 2 L = <strong>0.5 mol/L</strong>."
-  },
-  {
-    "id": 76,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "On increasing the temperature, which equilibrium will shift in forward direction?",
-    "options": [
-      "CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g)",
-      "4HCl(g) + O₂(g) ⇌ 2H₂O(g) + 2Cl₂(g)",
-      "H₂O(g) ⇌ H₂(g) + ½ O₂(g)",
-      "2SO₂(g) + O₂(g) ⇌ 2SO₃(g)"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Decomposition of H₂O is endothermic (ΔH > 0).<br>2. Le Chatelier's principle: Increasing temperature shifts <strong>endothermic reactions in the forward direction</strong>."
-  },
-  {
-    "id": 77,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Relation between boiling point (T_b) and critical temperature (T_c) of a liquid is -",
-    "options": [
-      "T_b = ⅔ T_c",
-      "T_b = 3/2 T_c",
-      "T_b = ⅓ T_c",
-      "T_b = 5/2 T_c"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. According to Guldberg's rule, normal boiling point in Kelvin is approximately <strong>T_b ≈ ⅔ T_c</strong>."
-  },
-  {
-    "id": 78,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Emission of light during chemical reaction is called -",
-    "options": [
-      "Phosphorescence",
-      "Fluorescence",
-      "Chemiluminescence",
-      "Photosensitization"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Emission of light as a result of a chemical reaction is <strong>Chemiluminescence</strong>."
-  },
-  {
-    "id": 79,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Which one is not an electrochemical cell?",
-    "options": [
-      "Voltaic cell",
-      "Fuel cell",
-      "Photovoltaic cell",
-      "Electrolytic cell"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Photovoltaic cell</strong> converts solar light energy directly into electricity via semiconductor p-n junctions, not chemical redox reactions."
-  },
-  {
-    "id": 80,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Commonly used electrolyte in a dry cell is -",
-    "options": [
-      "Potassium hydroxide",
-      "Ammonium chloride",
-      "Manganese dioxide",
-      "Sodium chloride"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Leclanché dry cell uses moist paste of <strong>Ammonium chloride (NH₄Cl)</strong> and ZnCl₂ as electrolyte."
-  },
-  {
-    "id": 81,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Heating of gas in a closed cylinder is -",
-    "options": [
-      "Isobaric process",
-      "Adiabatic process",
-      "Isothermal process",
-      "Isochoric process"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Rigid closed cylinder maintains constant volume (ΔV = 0 ⇒ <strong>Isochoric process</strong>)."
-  },
-  {
-    "id": 82,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Entropy of an isolated system continuously ........ and becomes ........ at the state of equilibrium.",
-    "options": [
-      "decreases, minimum",
-      "increases, maximum",
-      "increases, minimum",
-      "decreases, maximum"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Second Law of Thermodynamics: Entropy of isolated system <strong>increases</strong> during spontaneous process and reaches a <strong>maximum</strong> at equilibrium."
-  },
-  {
-    "id": 83,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Among the following maximum bond energy is in -",
-    "options": [
-      "HCl",
-      "HBr",
-      "HF",
-      "HI"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Small ionic radii and strong orbital overlap give <strong>HF</strong> the highest bond dissociation energy (~567 kJ/mol)."
-  },
-  {
-    "id": 84,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "In fcc crystal structure of diamond each carbon is attached to four other carbon atoms. Number of carbon atoms per unit cell is -",
-    "options": [
-      "4",
-      "8",
-      "6",
-      "12"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Diamond cubic lattice: 4 (fcc lattice) + 4 (tetrahedral voids occupied) = <strong>8 carbon atoms per unit cell</strong>."
-  },
-  {
-    "id": 85,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Amount of NaOH required to prepare 200ml of 0.2N NaOH solution -",
-    "options": [
-      "0.8g",
-      "1.6g",
-      "0.4g",
-      "4g"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <code>Mass = N × Equivalent Weight × V(L) = 0.2 × 40 × 0.2 = <strong>1.6 g</strong></code>."
-  },
-  {
-    "id": 86,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "Number of signals observed in ¹H-NMR spectrum of CH₃CH₂CO₂CH₃ is -",
-    "options": [
-      "2",
-      "8",
-      "4",
       "3"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. 3 distinct proton environments: -CH₃ (triplet), -CH₂- (quartet), and -OCH₃ (singlet) ⇒ <strong>3 signals</strong>."
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Nuclear fission equation: \u00b2\u00b3\u2075\u2089\u2082U + \u00b9\u2080n \u2192 \u00b9\u00b3\u2079\u2085\u2084Xe + \u2079\u2074\u2083\u2088Sr + x(\u00b9\u2080n).<br>2. Mass numbers: 235 + 1 = 139 + 94 + x \u21d2 236 = 233 + x \u21d2 x = <strong>3 neutrons</strong>."
+  },
+  {
+    "id": 19,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "In terms of cost effective, efficient easy to maintain and user friendly fuel which one of the following is the best option :",
+    "options": [
+      "LPG",
+      "CNG",
+      "Pentane",
+      "diesel"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>CNG (Compressed Natural Gas)</strong> is clean-burning, highly cost-effective, and safe compared to liquid petroleum fuels."
+  },
+  {
+    "id": 20,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "The number of S \u2013 S bond in sulphur trioxide trimer (S\u2083O\u2089) is :",
+    "options": [
+      "Zero",
+      "Two",
+      "One",
+      "Three"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. \u03b3-SO\u2083 (S\u2083O\u2089 trimer) forms a cyclic ring of alternating S and O atoms (-S-O-S-).<br>2. It contains <strong>zero (0) S-S bonds</strong>."
+  },
+  {
+    "id": 21,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "The geometry of Ni(CO)\u2084 and Ni(PPh\u2083)\u2082Cl\u2082 are :",
+    "options": [
+      "Both square planar",
+      "Tetrahedral and square planar, respectively",
+      "Both tetrahedral",
+      "Square planar and tetrahedral, respectively"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Ni(CO)\u2084 is Ni\u2070 (3d\u00b9\u2070) with sp\u00b3 <strong>tetrahedral</strong> geometry.<br>2. Ni(PPh\u2083)\u2082Cl\u2082 is a high-spin Ni\u00b2\u207a (3d\u2078) complex that adopts <strong>tetrahedral</strong> geometry due to bulky triphenylphosphine ligands."
+  },
+  {
+    "id": 22,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "At ordinary temperature and pressure, among halogens the chlorine is a gas, bromine is a liquid and iodine is a solid. This is because :",
+    "options": [
+      "The specific heat is in the order Cl\u2082 > Br\u2082 > I\u2082",
+      "Intermolecular force among molecules of chlorine are the weakest and those in iodine are the strongest",
+      "The order of density is I\u2082 > Br\u2082 > Cl\u2082",
+      "The order of stability is Cl\u2082 > Br\u2082 > I\u2082"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Down group 17, molecular size and electron cloud polarisability increase from Cl\u2082 to I\u2082.<br>2. This increases Van der Waals dispersion forces, making Cl\u2082 a gas, Br\u2082 a liquid, and I\u2082 a solid."
+  },
+  {
+    "id": 23,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "Formation of \u03c0-bond :",
+    "options": [
+      "Increases bond length",
+      "Decreases bond length",
+      "Distorts the geometry of molecules",
+      "Makes homoatomic molecules more reactive"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Formation of a \u03c0-bond adds extra electron density between bonding nuclei, pulling them closer together and <strong>decreasing bond length</strong>."
+  },
+  {
+    "id": 24,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "The structure of IF\u2085 can be best demonstrated as :",
+    "options": [
+      "Pentagonal planar",
+      "Trigonal bipyramidal",
+      "Square pyramidal",
+      "None of these"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Iodine in IF\u2085 has 5 bond pairs and 1 lone pair (Steric number 6, sp\u00b3d\u00b2 hybridization).<br>2. According to VSEPR theory, it adopts a <strong>Square Pyramidal</strong> geometry."
+  },
+  {
+    "id": 25,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "When an element of very low ionisation potential is allowed to react with an element of very high electron affinity resulting high lattice energy, we observe :",
+    "options": [
+      "A weak ionic bond",
+      "A strong ionic bond",
+      "A polar covalent",
+      "A strong metallic bond"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Low ionization energy facilitates cation formation; high electron affinity facilitates anion formation.<br>2. High lattice energy stabilizes the resulting crystal lattice, producing a <strong>strong ionic bond</strong>."
+  },
+  {
+    "id": 26,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "The following compounds have been arranged in order of their increasing thermal stabilities. Identify the correct order :<br><code>K\u2082CO\u2083 (I) &nbsp; MgCO\u2083 (II) &nbsp; CaCO\u2083 (III) &nbsp; BeCO\u2083 (IV)</code>",
+    "options": [
+      "I < II < III < IV",
+      "IV < II < III < I",
+      "IV < II < I < III",
+      "II < IV < III < I"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Thermal stability of carbonates increases down Group 2 (BeCO\u2083 < MgCO\u2083 < CaCO\u2083) as polarizing power decreases.<br>2. Alkali metal carbonate K\u2082CO\u2083 is far more thermally stable than alkaline earth carbonates.<br>3. Correct order: <strong>BeCO\u2083 (IV) < MgCO\u2083 (II) < CaCO\u2083 (III) < K\u2082CO\u2083 (I)</strong>."
+  },
+  {
+    "id": 27,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "Acetic acid exists as dimer in benzene due to :",
+    "options": [
+      "Condensation reaction",
+      "Presence of Hydrogen atom at \u03b1-carbon",
+      "Presence of carboxyl group",
+      "Hydrogen bonding"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In non-polar solvent benzene, two molecules of CH\u2083COOH associate via two intermolecular <strong>hydrogen bonds</strong> to form a cyclic dimer."
+  },
+  {
+    "id": 28,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "The shape of ClO\u2083\u207b according to VSEPR model is :",
+    "options": [
+      "Planar triangle",
+      "Pyramidal",
+      "Tetrahedral",
+      "Square planar"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In ClO\u2083\u207b, Chlorine has 3 bond pairs and 1 lone pair (Steric number 4, sp\u00b3 hybridization).<br>2. Molecular geometry is <strong>Trigonal Pyramidal</strong>."
+  },
+  {
+    "id": 29,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "Which is paramagnetic :",
+    "options": [
+      "Cl\u2082O",
+      "Cl\u2082O\u2087",
+      "Cl\u2082O\u2086",
+      "ClO\u2082"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. ClO\u2082 contains an odd number of valence electrons (7 + 6 + 6 = 19 e\u207b).<br>2. The presence of an unpaired electron makes <strong>ClO\u2082 paramagnetic</strong>."
+  },
+  {
+    "id": 30,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "Tetrahedral nature of bonding in carbon was first shown by :",
+    "options": [
+      "Kekule",
+      "Van\u2019t Hoff and Le Bel",
+      "Lewis",
+      "Pasteur"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In 1874, <strong>Van\u2019t Hoff and Le Bel</strong> independently proposed that carbon\u2019s four valencies are directed tetrahedrally in 3D space."
+  },
+  {
+    "id": 31,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "Transition metals generally form stronger metallic bond because of their :",
+    "options": [
+      "Involvement of (n-1) d electrons in bonding",
+      "Small size",
+      "Diamagnetism",
+      "Large size"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Transition elements involve both outer ns electrons and inner <strong>(n-1)d electrons in metallic bonding</strong>, making their metallic lattices exceptionally strong."
+  },
+  {
+    "id": 32,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "The orbitals of same energy level providing the most efficient overlapping are :",
+    "options": [
+      "sp\u00b3-sp\u00b3",
+      "sp-sp",
+      "sp\u00b2-sp\u00b2",
+      "All the above"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>sp-sp hybrid orbitals</strong> have 50% s-character, making them shorter, more concentrated, and producing maximum orbital overlap."
+  },
+  {
+    "id": 33,
+    "section": "2006 (Inorganic Chemistry)",
+    "sectionId": "I",
+    "question": "B\u2082H\u2086 an electron deficient species is known as :",
+    "options": [
+      "Lewis acid",
+      "Hydrophilic",
+      "Nucleophiles",
+      "Lewis base"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Diborane (B\u2082H\u2086) lacks complete octets around Boron atoms, acting as an electron-pair acceptor or <strong>Lewis acid</strong>."
+  },
+  {
+    "id": 34,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Radioactive decay of uranium belongs to the decay series :",
+    "options": [
+      "4n series",
+      "4n + 3 series",
+      "4n + 2 series",
+      "4n + 1 series"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Natural \u00b2\u00b3\u2078U decay series has mass numbers satisfying A = 4n + 2 (since 238 = 4\u00d759 + 2).<br>2. Hence it is designated as the <strong>4n + 2 decay series</strong>."
+  },
+  {
+    "id": 35,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "The source of stellar energy is based on :",
+    "options": [
+      "Fission reaction",
+      "Decomposition of O atoms in the environment",
+      "Fusion reactions occurring in chromospheres",
+      "Formation of active hydrogen"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Stellar energy (stars/sun) is powered by thermonuclear <strong>fusion reactions</strong> of hydrogen nuclei into helium."
+  },
+  {
+    "id": 36,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Due to lanthanide contraction the atomic sized of Zr, Nb. Mo become :",
+    "options": [
+      "Bigger than those of Hf, Ta and W respectively",
+      "Less than those Hf, Ta and W respectively",
+      "Almost equal to those of Hf, Ta and W respectively",
+      "Change according to the following general trend: Ti < Zr < Hf; V < Nb < Ta; Cr < Mo < W"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Lanthanide contraction neutralizes the expected size increase down 4d to 5d transition metals.<br>2. As a result, pairs like Zr & Hf, Nb & Ta, Mo & W have <strong>almost equal atomic radii</strong>."
+  },
+  {
+    "id": 37,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Which of the following cerium compounds is used as an oxidant in the volumetric titrations ?",
+    "options": [
+      "Cerium (II) sulphate",
+      "Cerium (III) sulphate",
+      "Cerium (IV) sulphate",
+      "Cerium (O) sulphate"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Cerium (IV) sulphate</strong>, Ce(SO\u2084)\u2082, is a strong, stable primary standard oxidizing agent in cerimetric redox titrations."
+  },
+  {
+    "id": 38,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "In microcosmic bead test of the coloured metallic salts :",
+    "options": [
+      "Glassy sodium metaphosphate is formed",
+      "A mixed sodium metaphosphate and metal oxide forming transparent coloured bead",
+      "Coloured metal phosphate is formed",
+      "There is no reaction of microcosmic salt with the coloured metal salts"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Microcosmic salt decomposes on heating to yield glassy NaPO\u2083 (sodium metaphosphate).<br>2. NaPO\u2083 combines with metal oxide to form transparent <strong>coloured orthophosphate beads</strong> (e.g. NaCoPO\u2084)."
+  },
+  {
+    "id": 39,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Inorganic rubbers contain the following groups :<br><div class=\"svg-diagram-card\"><svg width=\"360\" height=\"130\" viewBox=\"0 0 360 130\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(10,10)\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"95\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/><text x=\"12\" y=\"52\" font-family=\"monospace\" font-size=\"24\" fill=\"#0f4c81\">[</text><text x=\"78\" y=\"52\" font-family=\"monospace\" font-size=\"24\" fill=\"#0f4c81\">]</text><text x=\"86\" y=\"62\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#0f4c81\">n</text><text x=\"40\" y=\"48\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#0f172a\">P = N</text><line x1=\"47\" y1=\"32\" x2=\"47\" y2=\"18\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><text x=\"47\" y=\"14\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563eb\">Cl</text><line x1=\"47\" y1=\"54\" x2=\"47\" y2=\"68\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><text x=\"47\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#2563eb\">Cl</text><text x=\"50\" y=\"110\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"11\" fill=\"#0f4c81\">(a)</text></g><g transform=\"translate(125,10)\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"95\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/><text x=\"18\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">O</text><line x1=\"28\" y1=\"45\" x2=\"40\" y2=\"45\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><polygon points=\"28,45 34,42 34,48\" fill=\"#0f172a\"/><text x=\"46\" y=\"48\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#0f172a\">P</text><line x1=\"58\" y1=\"38\" x2=\"76\" y2=\"24\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><text x=\"82\" y=\"22\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#10b981\">O</text><line x1=\"58\" y1=\"45\" x2=\"76\" y2=\"45\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><text x=\"82\" y=\"48\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#10b981\">O</text><line x1=\"58\" y1=\"52\" x2=\"76\" y2=\"66\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><text x=\"82\" y=\"74\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#10b981\">O</text><text x=\"50\" y=\"110\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"11\" fill=\"#0f4c81\">(b)</text></g><g transform=\"translate(240,10)\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"95\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/><text x=\"18\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">O</text><line x1=\"28\" y1=\"45\" x2=\"40\" y2=\"45\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><polygon points=\"28,45 34,42 34,48\" fill=\"#0f172a\"/><text x=\"46\" y=\"48\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#0f172a\">P</text><line x1=\"50\" y1=\"34\" x2=\"50\" y2=\"20\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><text x=\"50\" y=\"15\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#0f172a\">H</text><line x1=\"50\" y1=\"54\" x2=\"50\" y2=\"68\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#0f172a\">H</text><line x1=\"58\" y1=\"45\" x2=\"76\" y2=\"45\" stroke=\"#0f172a\" stroke-width=\"1.8\"/><text x=\"82\" y=\"48\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#10b981\">O</text><text x=\"50\" y=\"110\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"11\" fill=\"#0f4c81\">(c)</text></g></svg></div>",
+    "options": [
+      "Structure (a)",
+      "Structure (b)",
+      "Structure (c)",
+      "None of the above"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Inorganic rubber is polyphosphazene (phosphonitrilic chloride polymer).<br>2. It consists of the repeating structural unit <code>[-P(Cl)\u2082=N-]\u2099</code> shown in diagram (a)."
+  },
+  {
+    "id": 40,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Anhydrous CuCl\u2082 has :",
+    "options": [
+      "Polymeric (CuCl\u2082)\u2099 structure",
+      "Ionic Cu\u00b2\u207a(Cl\u207b)\u2082 structure",
+      "Simple covalent structure",
+      "None of the above"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Anhydrous Copper(II) chloride adopts a <strong>polymeric (CuCl\u2082)\u2099 chain structure</strong> with edge-sharing square planar CuCl\u2084 units."
+  },
+  {
+    "id": 41,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "When cations and anions combine together forming a solid crystalline compound :",
+    "options": [
+      "Energy is absorbed",
+      "Energy is released",
+      "It is neither absorbed nor released",
+      "Nothing happen according to the above changes"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Formation of a crystal lattice from gaseous ions releases <strong>Lattice Energy</strong> (exothermic process, \u0394H < 0)."
+  },
+  {
+    "id": 42,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "When a bond is formed between cation and anion :",
+    "options": [
+      "Cation will be deformed by anion to a greater degree",
+      "Anion will be deformed by cation to greater degree",
+      "There will be no deformation of cation as well as anion",
+      "The deformation of cation and anion will be of equal magnitude"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. According to Fajan\u2019s rule, high charge density of small cation polarizes and <strong>deforms the electron cloud of the larger anion</strong> to a greater extent."
+  },
+  {
+    "id": 43,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "In Frenkel Defect of ionic lattice :",
+    "options": [
+      "Cation is absent from the lattice",
+      "Cation is displaced from the lattice position and occupies interstitial position",
+      "Cationic charge is doubled",
+      "There is a small difference in sizes of cation and anion"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In Frenkel defect, a smaller cation leaves its regular lattice site and occupies a nearby <strong>interstitial position</strong>."
+  },
+  {
+    "id": 44,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "The equilibrium is established when PCl\u2085 is heated. What will be types of hybridisation of the ions formed ?<br><code>2PCl\u2085 &nbsp; \u21cc &nbsp; [PCl\u2084]\u207a + [PCl\u2086]\u207b</code>",
+    "options": [
+      "dsp\u00b2",
+      "sp\u00b3d",
+      "sp\u00b3 and sp\u00b3d\u00b2 respectively",
+      "dsp\u00b2 and sp\u00b3d\u00b2 respectively"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In solid/melt state, PCl\u2085 auto-ionizes into cationic [PCl\u2084]\u207a and anionic [PCl\u2086]\u207b.<br>2. [PCl\u2084]\u207a has 4 bond pairs \u21d2 <strong>sp\u00b3 hybridization</strong> (Tetrahedral).<br>3. [PCl\u2086]\u207b has 6 bond pairs \u21d2 <strong>sp\u00b3d\u00b2 hybridization</strong> (Octahedral)."
+  },
+  {
+    "id": 45,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "In diborane molecule :",
+    "options": [
+      "All the hydrogen atoms in plane with boron atoms",
+      "There is a 3-centre bond",
+      "Only two hydrogen atoms can be replaced by CH\u2083 groups",
+      "Diborane has properties like that of ethane"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. B\u2082H\u2086 features two 3-centre 2-electron (3c-2e) B-H-B <strong>banana bonds</strong> bridging the two B atoms."
+  },
+  {
+    "id": 46,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Inorganic benzene is :",
+    "options": [
+      "BH\u2083 \u2013 NH\u2083",
+      "B\u2083N\u2083H\u2086",
+      "BF\u2083.NH\u2083",
+      "BH\u2083"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Borazine (<strong>B\u2083N\u2083H\u2086</strong>) is known as inorganic benzene due to its cyclic structure and electron counting identical to C\u2086H\u2086."
+  },
+  {
+    "id": 47,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "In Cr(CO)\u2086 the oxidation number of chromium is :",
+    "options": [
+      "3+",
+      "2+",
+      "6+",
+      "0"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Carbonyl (CO) is a neutral ligand.<br>2. Oxidation state of Chromium in Cr(CO)\u2086 is <strong>0</strong>."
+  },
+  {
+    "id": 48,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Interhalogen compounds are formed because :",
+    "options": [
+      "The halogen atoms forming interhalogen compounds are of the same electronegativity",
+      "Halogen atoms are of the same electropositive nature",
+      "One of the halogen atoms is more electropositive than the other halogen atom",
+      "Halogen atoms are joined by van der Waal forces"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Interhalogen compounds form because one halogen is more electropositive (less electronegative) than the other, allowing polar covalent bonding."
+  },
+  {
+    "id": 49,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "The metals have small number of valency electrons, but the metal atoms are joined forming metal lattice on account of the following reasons :",
+    "options": [
+      "Delocalisation of electron forming metal bonds",
+      "The covalent bonds are by sharing of electron",
+      "The ionic bond is formed by transfer of electron",
+      "Bonds are not formed at all"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Metallic bonding is characterized by a lattice of metal cations held together by a <strong>sea of delocalised valence electrons</strong>."
+  },
+  {
+    "id": 50,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "In band theory of metals, the conduction of electricity is on account of the following :",
+    "options": [
+      "Overlapping of valency and conduction bands",
+      "Crossing the forbidden band between valency and conduction band",
+      "Movement of electrons within conduction band",
+      "Transfer of electrons from valency band to conduction band"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Electrical conductivity in metals occurs because the valence band and conduction band <strong>overlap</strong> with zero energy band gap."
+  },
+  {
+    "id": 51,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Crystal field theory of complexes indicate :",
+    "options": [
+      "Pure electrostatic bond",
+      "Pure covalent bond",
+      "Mixture of electrovalent and covalent bonds",
+      "Van der Waal attraction"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Crystal Field Theory (CFT) treats interaction between metal ion and ligands as <strong>purely electrostatic</strong>."
+  },
+  {
+    "id": 52,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "The magnetic properties of complex compounds depend on :",
+    "options": [
+      "Nature of bonds in the complex ion",
+      "Presence of electrons in t\u2082g and eg orbitals",
+      "Effective atomic number of metal ion",
+      "Colour of the complex ion in solution"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Magnetic moment depends on the number of unpaired electrons in the split <strong>t\u2082g and eg orbital sets</strong>."
+  },
+  {
+    "id": 53,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Effective atomic number (EAN) depends on :",
+    "options": [
+      "Atomic number of metal ion",
+      "Total number of electrons present in the complex ion",
+      "Ionization potential and electron affinity of the metal",
+      "None of the above"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. EAN represents the <strong>total number of electrons</strong> surrounding the central metal nucleus in a coordination complex."
+  },
+  {
+    "id": 54,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Magnetic studies of the complex ion [Fe(H\u2082O)\u2086]\u00b3\u207a give the value of BM \u2248 5.92. The probable number of unpaired electrons in d-orbitals will be :",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Spin-only formula: \u03bc = \u221a(n(n+2)) BM.<br>2. For n = 5 unpaired electrons, \u03bc = \u221a(5 \u00d7 7) = \u221a35 \u2248 <strong>5.92 BM</strong>."
+  },
+  {
+    "id": 55,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "The correct IUPAC name for the complex compound [Co(NH\u2083)\u2084Cl(-O-N=O)]Cl is :",
+    "options": [
+      "Chloronitrotetramine cobalt (III) chloride",
+      "Chloronitrotetramine cobalt (II) chloride",
+      "Dichloronitritotetramine cobalt (III)",
+      "Chloronitritotetramine cobalt (III) chloride"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Cationic complex: 4 ammine + 1 chloro + 1 nitrito-O attached to Cobalt(III).<br>2. IUPAC Name: <strong>Chloronitritotetramine cobalt (III) chloride</strong>."
+  },
+  {
+    "id": 56,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Which of the following statements about radioactivity is wrong ?",
+    "options": [
+      "It is not affected by temperature and pressure",
+      "In this outermost electrons are affected",
+      "It is exothermic process",
+      "The radioactivity of an element is not affected by any other element compounded with it"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Radioactivity is a nuclear phenomenon involving instability of the atomic nucleus, <strong>not valence/outermost electrons</strong>."
+  },
+  {
+    "id": 57,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "High spin complexes are also named as :",
+    "options": [
+      "Spin-free complexes",
+      "Spin-paired complexes",
+      "Diamagnetic complex ion",
+      "Cannot comment"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. High-spin complexes maintain maximum unpaired electron spins and are called <strong>spin-free complexes</strong>."
+  },
+  {
+    "id": 58,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Degeneracy of d-orbital of metal ion is lost on complexation and splitting of d-orbitals results. What will be the splitting sequence of d-orbitals in square planar complexes ?",
+    "options": [
+      "t\u2082g > eg orbitals",
+      "eg < t\u2082g orbitals",
+      "dx\u00b2 \u2013 y\u00b2 > dxy > dz\u00b2 > dxz = dyz",
+      "None of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Splitting pattern in square planar (D4h): <strong>dx\u00b2 \u2013 y\u00b2 > dxy > dz\u00b2 > dxz = dyz</strong>."
+  },
+  {
+    "id": 59,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "The particle (X) in the following nuclear reaction \u00b9\u2074\u2087N + X \u2192 \u00b9\u2074\u2086C + \u00b9\u2081H is :",
+    "options": [
+      "\u00b9\u2080n",
+      "\u00b2\u2081H",
+      "\u2070\u208a\u2081e",
+      "\u2070\u208b\u2081e"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Mass balance: 14 + A = 14 + 1 \u21d2 A = 1.<br>2. Charge balance: 7 + Z = 6 + 1 \u21d2 Z = 0.<br>3. Particle X is a neutron <strong>(\u00b9\u2080n)</strong>."
+  },
+  {
+    "id": 60,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Grignard reagent is prepared by adding magnesium wires to alkyl halide dissolved in dry ether. The role of ether in this reaction is :",
+    "options": [
+      "To combine with alkyl magnesium halide",
+      "To act as a catalyst",
+      "To act as a solvent",
+      "To prevent reversible reaction"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Anhydrous diethyl ether acts as a <strong>solvent</strong> that solvates and stabilizes the RMgX organometallic complex."
+  },
+  {
+    "id": 61,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Which of the following compounds is an organometallic compound ?",
+    "options": [
+      "Metal cyanide",
+      "Metal thiocyanate",
+      "Metal carbonyl",
+      "Metal carbonate"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Metal carbonyls</strong> contain direct covalent Metal-Carbon bonds, classifying them as organometallic compounds."
+  },
+  {
+    "id": 62,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Ionic organometalic compound is :",
+    "options": [
+      "Cr(CO)\u2086",
+      "NaC\u2085H\u2085",
+      "Al\u2082(CH\u2083)\u2086",
+      "Fe(C\u2085H\u2085)\u2082"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>NaC\u2085H\u2085 (Sodium cyclopentadienide)</strong> consists of Na\u207a cations and C\u2085H\u2085\u207b aromatic anions joined by ionic bonding."
+  },
+  {
+    "id": 63,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Silicons contain the following bond :",
+    "options": [
+      "Si\u2013Si bond",
+      "Si=Si bond",
+      "Si\u2013O\u2013Si bond",
+      "None of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Silicones (polysiloxanes) possess repeating <strong>Si\u2013O\u2013Si linkages</strong> in their polymeric backbone."
+  },
+  {
+    "id": 64,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "In \u03b2-ray emission the electrons are emitted from :",
+    "options": [
+      "Nucleus",
+      "Valency shell of atom",
+      "Electron from antepenultimate shell",
+      "None of the above"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Beta particles (\u03b2\u207b) are high-energy electrons produced in the <strong>atomic nucleus</strong> by neutron decay (n \u2192 p + e\u207b + \u03bd\u0304)."
+  },
+  {
+    "id": 65,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Isotope used for dating archeological findings is :",
+    "options": [
+      "\u00b3\u2081H",
+      "\u00b9\u2078\u2088O",
+      "\u00b2\u00b3\u2075\u2089\u2082U",
+      "\u00b9\u2074\u2086C"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Carbon-14 (\u00b9\u2074\u2086C)</strong> radiocarbon decay is used to date organic archaeological artifacts."
+  },
+  {
+    "id": 66,
+    "section": "2007 (Inorganic Chemistry)",
+    "sectionId": "II",
+    "question": "Unstable nuclide is that whose n/p ratio is :",
+    "options": [
+      "n/p = 1",
+      "n/p = 2",
+      "n/p > 1",
+      "n/p < 1"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Stable light nuclei have n/p = 1. High <strong>n/p > 1</strong> ratio causes nuclear instability leading to beta particle emission."
+  },
+  {
+    "id": 67,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "The interhalogen compound which cannot be prepared by the direct combination of halogen under appropriate conditions is :",
+    "options": [
+      "ClF",
+      "ClF\u2083",
+      "IF\u2087",
+      "IF\u2083"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>IF\u2083 (Iodine trifluoride)</strong> is thermally unstable and disproportionates readily, so it cannot be synthesized cleanly by direct elemental combination."
+  },
+  {
+    "id": 68,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "Which of the following in glacial acetic acid is used for the determination of iodine number ?",
+    "options": [
+      "ICl\u2083",
+      "IBr",
+      "ICl",
+      "IF\u2083"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Wijs\u2019 solution used in iodine number determination consists of <strong>ICl (Iodine monochloride)</strong> in glacial acetic acid."
+  },
+  {
+    "id": 69,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "Nuclear particles responsible for holding the nucleons are :",
+    "options": [
+      "Electrons",
+      "Neutrons",
+      "Mesons",
+      "Positrons"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. According to Yukawa\u2019s meson theory, strong nuclear forces holding nucleons together are mediated by continuous exchange of <strong>\u03c0-mesons</strong>."
+  },
+  {
+    "id": 70,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "The hydrogen atom which contains one proton and two neutrons has a special name :",
+    "options": [
+      "Protium",
+      "Tritium",
+      "Deuterium",
+      "Positron"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Tritium (\u00b3\u2081H)</strong> contains 1 proton and 2 neutrons in its nucleus."
+  },
+  {
+    "id": 71,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "In chromium atom (z = 24) in its ground state, the total number of orbitals populated by one or more electrons is :",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Cr configuration: 1s\u00b2 2s\u00b2 2p\u2076 3s\u00b2 3p\u2076 3d\u2075 4s\u00b9.<br>2. Occupied orbitals: 1(1s) + 1(2s) + 3(2p) + 1(3s) + 3(3p) + 5(3d) + 1(4s) = <strong>15 orbitals</strong>."
+  },
+  {
+    "id": 72,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "In photoelectric cells which one of the following is widely used ?",
+    "options": [
+      "Platinum",
+      "Gold",
+      "Lead",
+      "Cesium"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Cesium (Cs)</strong> has the lowest ionization potential and lowest work function, making it ideal for photoelectric cathodes."
+  },
+  {
+    "id": 73,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "Which one of the following statements is not correct ?",
+    "options": [
+      "Both carbon and silicon show similar chemical properties",
+      "Both carbon and silicon have the same four valence electrons in their atoms",
+      "Both carbon and silicon form double and triple bonds",
+      "Both carbon and silicon have similar configuration being p-block elements"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Silicon\u2019s 3p orbitals are too diffuse to form stable <strong>p\u03c0-p\u03c0 double or triple bonds</strong> unlike Carbon."
+  },
+  {
+    "id": 74,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "Which one of the following statement is true ?",
+    "options": [
+      "Many of the transition elements and their compounds show diamagnetic behaviour",
+      "While all transition element show diamagnetic behaviour, their compounds show paramagnetic behaviour",
+      "The paramagnetic characteristics of transition metal ion decrease as the number of unpaired electrons increases",
+      "The paramagnetic characteristics of transition metal ions increases as the number of unpaired electrons increases"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Magnetic moment \u03bc = \u221a(n(n+2)) BM. Paramagnetic character <strong>increases as the number of unpaired electrons increases</strong>."
+  },
+  {
+    "id": 75,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "Which among the following compounds is the strongest acid ?",
+    "options": [
+      "HClO\u2082",
+      "HClO\u2084",
+      "HClO\u2083",
+      "HOCl"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Perchloric acid (HClO\u2084)</strong> is the strongest acid because Cl is in its highest oxidation state (+7), stabilizing ClO\u2084\u207b conjugate base."
+  },
+  {
+    "id": 76,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "\u00b9\u2078F is found to undergo 90% radioactive decay in 366 minutes. As a quick estimate, the half-life approximately is :",
+    "options": [
+      "92 min.",
+      "110 min.",
+      "122 min",
+      "183 min."
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. 90% decay = 10% remaining \u21d2 (1/2)^(366/t\u00bd) = 0.10.<br>2. 366 / t\u00bd \u2248 3.32 \u21d2 t\u00bd = 366 / 3.32 \u2248 <strong>110 minutes</strong>."
+  },
+  {
+    "id": 77,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "The dipole moment of BF\u2083, H\u2082S and H\u2082O can be arranged as :",
+    "options": [
+      "BF\u2083 > H\u2082S > H\u2082O",
+      "BF\u2083 < H\u2082S < H\u2082O",
+      "BF\u2083 < H\u2082O < H\u2082S",
+      "H\u2082O < BF\u2083 < H\u2082S"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. BF\u2083 is non-polar (\u03bc = 0 D) due to symmetric planar geometry.<br>2. H\u2082O has higher electronegativity difference (\u03bc \u2248 1.85 D) than H\u2082S (\u03bc \u2248 0.95 D).<br>3. Order: <strong>BF\u2083 < H\u2082S < H\u2082O</strong>."
+  },
+  {
+    "id": 78,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "Which of the following species has tetrahedral shape :",
+    "options": [
+      "HgCl\u2082",
+      "CO\u2083\u00b2\u207b",
+      "NH\u2084\u207a",
+      "[Ni(CN)\u2084]\u00b2\u207a"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Ammonium ion (NH\u2084\u207a)</strong> has 4 bond pairs and 0 lone pairs on N (sp\u00b3 hybridization), adopting a regular tetrahedral geometry."
+  },
+  {
+    "id": 79,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "\u03c0-bond is formed by the overlap of :",
+    "options": [
+      "s-s orbitals",
+      "s-p orbitals",
+      "s-d orbitals",
+      "p-p orbitals"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Pi (\u03c0) bonds are formed by lateral/sideways overlapping of parallel <strong>p-p orbitals</strong>."
+  },
+  {
+    "id": 80,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "0.1 M aqueous solution of which of the following salts would have the highest pH ?",
+    "options": [
+      "NaClO",
+      "NaClO\u2082",
+      "NaClO\u2083",
+      "NaClO\u2084"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. HOCl is the weakest acid among oxoacids of chlorine.<br>2. Its conjugate base ClO\u207b undergoes maximum hydrolysis, yielding highest OH\u207b concentration and <strong>highest pH</strong>."
+  },
+  {
+    "id": 81,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "An ion has a charge of -1. It has eighteen electrons and twenty neutrons. Its mass number is :",
+    "options": [
+      "17",
+      "37",
+      "16",
+      "38"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Charge -1 and 18 e\u207b \u21d2 Protons (Z) = 17.<br>2. Mass number A = Protons + Neutrons = 17 + 20 = <strong>37</strong>."
+  },
+  {
+    "id": 82,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "The number of electrons in [\u2074\u2070\u2081\u2089K]\u207b\u00b9 is :",
+    "options": [
+      "19",
+      "18",
+      "20",
+      "40"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Potassium (Z = 19) neutral atom has 19 electrons.<br>2. K\u207b\u00b9 anion has gained 1 electron \u21d2 19 + 1 = <strong>20 electrons</strong>."
+  },
+  {
+    "id": 83,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "The oxidation number of Ni in [Ni(CO)\u2084] is :",
+    "options": [
+      "4",
+      "3",
+      "8",
+      "Zero"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. CO is a neutral ligand.<br>2. Oxidation state of Nickel in [Ni(CO)\u2084] is <strong>Zero</strong>."
+  },
+  {
+    "id": 84,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "Which of the following is not a magic number ?",
+    "options": [
+      "18",
+      "28",
+      "50",
+      "82"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Standard nuclear magic numbers are 2, 8, 20, 28, 50, 82, 126.<br>2. <strong>18</strong> is not a magic number."
+  },
+  {
+    "id": 85,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "Which of the following complexes has found to have square planar geometry ?",
+    "options": [
+      "[Ni(CO)\u2084]",
+      "[Ni(CN)\u2084]\u00b2\u207b",
+      "[NiCl\u2084]\u00b2\u207b",
+      "[(Ph\u2083P)\u2082. NiCl\u2082]"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>[Ni(CN)\u2084]\u00b2\u207b</strong> is a low-spin d\u2078 complex with dsp\u00b2 square planar geometry."
+  },
+  {
+    "id": 86,
+    "section": "2008 (Inorganic Chemistry)",
+    "sectionId": "III",
+    "question": "Which of the following compounds has found use in cancer chemotherapy ?",
+    "options": [
+      "Cis-[PtCl\u2082(NH\u2083)\u2082]",
+      "Cis-[Co(NH\u2083)\u2084Cl\u2082]\u207a",
+      "[Pt(NH\u2083)\u2086]Cl\u2084",
+      "[(C\u2082H\u2084)PtCl\u2083]\u207b"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Cisplatin, Cis-[PtCl\u2082(NH\u2083)\u2082]</strong>, is a major chemotherapeutic drug used to treat various cancers."
   },
   {
     "id": 87,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Number of electrons that can fill the sub-shell with n=3 and l=1 -",
+    "question": "Which of the following is used as antiknock in gasoline ?",
     "options": [
-      "2",
-      "16",
-      "6",
-      "10"
+      "(CH\u2083)\u2084 Sn",
+      "(CH\u2083CH\u2082)\u2084Pb",
+      "(CH\u2083CH\u2082)\u2082 Zn",
+      "[(CH\u2083)\u2083Al]\u2082"
     ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. l = 1 defines a p-subshell.<br>2. Maximum capacity = <code>2(2l+1) = 2(3) = <strong>6 electrons</strong></code>."
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Tetraethyllead, (CH\u2083CH\u2082)\u2084Pb</strong>, was widely used as an antiknocking additive in gasoline."
   },
   {
     "id": 88,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Schiff bases on reduction with sodium borohydride gives -",
+    "question": "Which metal is present in chlorophyll ?",
     "options": [
-      "tert. amine",
-      "aniline",
-      "primary amine",
-      "sec. amine"
+      "Ca",
+      "Ba",
+      "Mg",
+      "Sr"
     ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Reduction of imines / Schiff bases (R-CH=N-R') yields <strong>secondary amines (sec. amine)</strong>."
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Magnesium (Mg\u00b2\u207a)</strong> is the central metal atom bound inside chlorophyll's porphyrin ring."
   },
   {
     "id": 89,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Wave number of the IR radiation of wavelength 2.5 μm is -",
+    "question": "Which of the ions with the following configuration has zero CFSE in both strong and weak ligand field ?",
     "options": [
-      "3600 cm⁻¹",
-      "400 cm⁻¹",
-      "100 cm⁻¹",
-      "4000 cm⁻¹"
+      "d\u00b9",
+      "d\u2076",
+      "d\u2078",
+      "d\u00b9\u2070"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <code>Wave number ν̄ = 1 / λ = 1 / (2.5 × 10⁻⁴ cm) = <strong>4000 cm⁻¹</strong></code>."
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>d\u00b9\u2070 configuration</strong> (t\u2082g\u2076 eg\u2074) has CFSE = [-0.4(6) + 0.6(4)] \u0394o = 0 in both strong and weak octahedral fields."
   },
   {
     "id": 90,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Galvanization is the process of coating iron or steel with -",
+    "question": "Which of the following is diamagnetic in nature ?",
     "options": [
-      "Cu",
-      "Zn",
-      "Ni",
-      "Cr"
+      "Co\u00b3\u207a, O\u2095 complex with strong field ligands",
+      "Co\u00b3\u207a, O\u2095 complex with weak field ligands",
+      "Co\u00b2\u207a in tetrahedral field",
+      "Co\u00b2\u207a in square planar complex"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Galvanization applies a protective layer of <strong>Zinc (Zn)</strong> to prevent iron corrosion."
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Co\u00b3\u207a is d\u2076. Strong field ligands cause complete pairing into t\u2082g\u2076 eg\u2070 configuration, rendering it <strong>Diamagnetic</strong>."
   },
   {
     "id": 91,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "S.I. unit of surface tension is -",
+    "question": "Predict the I-I-I bond angle LnI\u2083\u207b ion :",
     "options": [
-      "Dyne-meter",
-      "Dyne/meter",
-      "Newton-meter",
-      "Newton/meter"
+      "120\u00b0",
+      "109\u00b028\u2019",
+      "104\u00b027\u2019",
+      "180\u00b0"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. SI unit of surface tension γ is <strong>Newton/meter (N/m)</strong>."
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Triiodide ion (I\u2083\u207b) has sp\u00b3d hybridization with 3 equatorial lone pairs and 2 axial bond pairs.<br>2. Molecular shape is linear with a <strong>180\u00b0 bond angle</strong>."
   },
   {
     "id": 92,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Which of the following electronic transitions absorbs at highest wavelength in UV-Vis spectroscopy?",
+    "question": "Which electronic configuration will show Jahn-Teller distortion ?",
     "options": [
-      "σ → σ*",
-      "π → π*",
-      "n → σ*",
-      "n → π*"
+      "d\u00b3 (strog or weak ligand field)",
+      "d\u2074 (Weak ligand field)",
+      "d\u2075 (Weak ligand field)",
+      "d\u2076 (strog ligand field )s"
     ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Energy gap order: σ→σ* > n→σ* > π→π* > n→π*.<br>2. <strong>n → π* transition</strong> requires the lowest energy, corresponding to the <strong>highest absorption wavelength λ</strong>."
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. High-spin d\u2074 (t\u2082g\u00b3 eg\u00b9) has an asymmetrical eg electron occupation, experiencing strong <strong>Jahn-Teller distortion</strong>."
   },
   {
     "id": 93,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Prussian blue color obtained in Lassaigne's test of nitrogen is due to -",
+    "question": "The magnitude of \u0394\u2080 is minimum in :",
     "options": [
-      "Na₃[Fe(CN)₆]₃",
-      "Fe₄[Fe(CN)₆]₃",
-      "Fe(CN)₃",
-      "Fe(OH)₂"
+      "[Cr(CN)\u2086]\u00b3\u207b",
+      "[Cr(NH\u2083)\u2086]\u00b3\u207a",
+      "[CrCl\u2086]\u00b3\u207b",
+      "[Cr(H\u2082O)\u2086]\u00b3\u207a"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Ferric ferrocyanide complex <strong>Fe₄[Fe(CN)₆]₃</strong> produces the characteristic Prussian blue precipitate."
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. According to the spectrochemical series, Cl\u207b is the weakest ligand, yielding the <strong>minimum crystal field splitting \u0394\u2080</strong>."
   },
   {
     "id": 94,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Size of colloidal particles is in range -",
+    "question": "The spin only magnetic moment of Ni\u00b2\u207a ion under strong ligand field will be :",
     "options": [
-      "10⁻³ to 10⁻⁹m",
-      "10⁻⁹ to 10⁻¹²m",
-      "10⁻⁶ to 10⁻⁹m",
-      "10⁻¹² to 10⁻¹⁵m"
+      "1.73 BM",
+      "2.83 BM",
+      "3.87 BM",
+      "0.00 BM"
     ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Colloidal particle diameters range between 1 nm and 1000 nm (<strong>10⁻⁹ m to 10⁻⁶ m</strong>)."
+    "correctIndex": 3,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Ni\u00b2\u207a (d\u2078) under strong field adopts dsp\u00b2 square planar geometry with 0 unpaired electrons, yielding <strong>0.00 BM</strong>."
   },
   {
     "id": 95,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Following is applicable for Tetragonal crystal system -",
+    "question": "The overall stability constant will be maximum of :",
     "options": [
-      "α=β=γ=90°; a≠b≠c",
-      "α=β=90°≠γ; a=b=c",
-      "α=β=γ=90°; a=b≠c",
-      "α=β=γ≠90°; a=b=c"
+      "Co(en)\u2082",
+      "Co(tren)",
+      "Co(dien)\u2082",
+      "Co(NH\u2083)\u2084"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Tetragonal unit cell parameters: <strong>a = b ≠ c and α = β = γ = 90°</strong>."
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Diethylenetriamine (dien) is a tridentate ligand.<br>2. <strong>Co(dien)\u2082</strong> forms 4 five-membered chelate rings, maximizing chelate stability effect."
   },
   {
     "id": 96,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "The Van't Hoff factor (i) for dilute solution of K₃[Fe(CN)₆] assuming complete ionization is -",
+    "question": "In Fe (CO)\u2085 the Fe \u2190CO, \u03c0 bond results by the overlap between filled sp hybrid orbital on C-atom of CO molecule and vacant :",
     "options": [
-      "10",
-      "5",
-      "6",
-      "4"
+      "d\u00b2sp\u00b3",
+      "dsp\u00b3",
+      "sp\u00b3",
+      "dsp\u00b2"
     ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <code>K₃[Fe(CN)₆] → 3 K⁺ + [Fe(CN)₆]³⁻</code> (yields 4 ions ⇒ <strong>i = 4</strong>)."
+    "correctIndex": 1,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Fe(CO)\u2085 has trigonal bipyramidal geometry with <strong>dsp\u00b3 hybridization</strong>."
   },
   {
     "id": 97,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Bragg's equation is -",
+    "question": "Which of the following can form electron deficient compounds ?",
     "options": [
-      "nλ = d sinθ",
-      "nλ = 2d sinθ",
-      "nλ = 2d cosθ",
-      "n/λ = 2d sinθ"
+      "Mg",
+      "Ca",
+      "Ba",
+      "Sr"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Bragg's Law condition: <strong>nλ = 2d sinθ</strong>."
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <strong>Magnesium (Mg)</strong> forms polymeric, covalent electron-deficient hydrides and organometallic compounds."
   },
   {
     "id": 98,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Which of the following groups has highest priority according to C-I-P rules?",
+    "question": "Diborane is heated at 250\u2070C in a tube under 120 mm pressure, what are the products ?",
     "options": [
-      "−CH₃",
-      "−CH₂OH",
-      "−CHO",
-      "−CH₂OCH₃"
+      "5B\u2082H\u2086 \u2192 2B\u2085H\u2081\u2081 + 4H\u2082",
+      "2B\u2082H\u2086 \u2192 B\u2084H\u2081\u2080 + H\u2082",
+      "5B\u2082H\u2086 \u2192 B\u2081\u2080H\u2081\u2084 + 8H\u2082",
+      "5B\u2082H\u2086 \u2192 B\u2085H\u2089 + B\u2085H\u2081\u2081 + 5H\u2082"
     ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. -CHO carbon is double-bonded to Oxygen (O,O,H).<br>2. -CH₂OCH₃ carbon is single-bonded to Oxygen (O,H,H).<br>3. Comparing first point of difference: (O,O,H) > (O,H,H) ⇒ <strong>−CHO has highest C-I-P priority</strong>."
+    "correctIndex": 0,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Pyrolysis of diborane at 250\u00b0C under 120 mm pressure yields pentaborane-11:<br><code>5B\u2082H\u2086 \u2192 2B\u2085H\u2081\u2081 + 4H\u2082</code>."
   },
   {
     "id": 99,
-    "section": "Physical & Analytical Chemistry",
+    "section": "2008 (Inorganic Chemistry)",
     "sectionId": "III",
-    "question": "Correct assignment of chirality in following compound is -<br><div class=\"svg-diagram-card\"><svg width=\"220\" height=\"200\" viewBox=\"0 0 220 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"110\" y1=\"30\" x2=\"110\" y2=\"170\" stroke=\"#0f4c81\" stroke-width=\"3\"/><line x1=\"50\" y1=\"75\" x2=\"170\" y2=\"75\" stroke=\"#0f4c81\" stroke-width=\"3\"/><line x1=\"50\" y1=\"125\" x2=\"170\" y2=\"125\" stroke=\"#0f4c81\" stroke-width=\"3\"/><text x=\"110\" y=\"20\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#0f172a\">CHO</text><text x=\"35\" y=\"80\" text-anchor=\"end\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#ef4444\">H</text><text x=\"185\" y=\"80\" text-anchor=\"start\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#10b981\">OH</text><text x=\"35\" y=\"130\" text-anchor=\"end\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#10b981\">HO</text><text x=\"185\" y=\"130\" text-anchor=\"start\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#ef4444\">H</text><text x=\"110\" y=\"190\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#0f172a\">CH₂OH</text></svg></div>",
+    "question": "The complexes in which the substitutuion of ligands takes place on less than one minute are called :",
     "options": [
-      "2R, 3R",
-      "2S, 3R",
-      "2R, 3S",
-      "2S, 3S"
+      "Inert complexes",
+      "Mixed complexes",
+      "Labile complexes",
+      "None of the above"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. At C-2: Priorities -OH(1) > C3(2) > -CHO(3) > -H(4). Clockwise trace with horizontal -H ⇒ <strong>2S</strong>.<br>2. At C-3: Priorities -OH(1) > C2(2) > -CH₂OH(3) > -H(4). Counter-clockwise trace with horizontal -H ⇒ <strong>3R</strong>.<br>3. Correct configuration: <strong>2S, 3R</strong>."
-  },
-  {
-    "id": 100,
-    "section": "Physical & Analytical Chemistry",
-    "sectionId": "III",
-    "question": "For reaction 2NO(g) + Cl₂(g) ⇌ 2NOCl(g) the relation between K_p and K_c is -",
-    "options": [
-      "K_p = K_c / RT",
-      "K_p = K_c",
-      "K_p = K_c(RT)",
-      "K_p = K_c / RT²"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <code>Δn_g = 2 - (2 + 1) = -1</code>.<br>2. <code>K_p = K_c (RT)^(Δn_g) = <strong>K_c / RT</strong></code>."
+    "correctIndex": 2,
+    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Complexes where ligand substitution occurs in less than 1 minute are defined as kinetically <strong>Labile complexes</strong>."
   }
 ];

@@ -537,18 +537,19 @@ function submitTest() {
   let secondTryCorrectCount = 0;
   let wrongCount = 0;
 
-  let secStats = {
-    "Inorganic Chemistry": { total: 33, correct: 0 },
-    "Organic Chemistry": { total: 34, correct: 0 },
-    "Physical & Analytical Chemistry": { total: 33, correct: 0 }
-  };
+  let secStats = {};
 
   activeQuestions.forEach(q => {
+    if (!secStats[q.section]) {
+      secStats[q.section] = { total: 0, correct: 0 };
+    }
+    secStats[q.section].total++;
+
     const st = userState[q.displayId];
     if (st.firstTryCorrect) {
       totalScore += 1;
       firstTryCorrectCount++;
-      if (secStats[q.section]) secStats[q.section].correct++;
+      secStats[q.section].correct++;
     } else if (st.isCorrect) {
       secondTryCorrectCount++;
     } else if (st.attempts > 0) {
@@ -556,12 +557,25 @@ function submitTest() {
     }
   });
 
+  let tableRowsHtml = '';
+  Object.keys(secStats).forEach(secName => {
+    const stat = secStats[secName];
+    const acc = stat.total > 0 ? ((stat.correct / stat.total) * 100).toFixed(1) : '0.0';
+    tableRowsHtml += `
+      <tr>
+        <td>${secName} (${stat.total})</td>
+        <td>${stat.correct} / ${stat.total}</td>
+        <td>${acc}%</td>
+      </tr>
+    `;
+  });
+
   // Render Score Modal
   document.getElementById('modal-title').innerText = "🏆 Result Scorecard";
   document.getElementById('modal-body-content').innerHTML = `
     <div class="score-summary-grid">
       <div class="score-card">
-        <div class="score-card-val">${totalScore} / 100</div>
+        <div class="score-card-val">${totalScore} / ${activeQuestions.length}</div>
         <div class="score-card-lbl">Total Score</div>
       </div>
       <div class="score-card">
@@ -588,21 +602,7 @@ function submitTest() {
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Inorganic Chemistry (33)</td>
-          <td>${secStats["Inorganic Chemistry"].correct} / 33</td>
-          <td>${((secStats["Inorganic Chemistry"].correct / 33) * 100).toFixed(1)}%</td>
-        </tr>
-        <tr>
-          <td>Organic Chemistry (34)</td>
-          <td>${secStats["Organic Chemistry"].correct} / 34</td>
-          <td>${((secStats["Organic Chemistry"].correct / 34) * 100).toFixed(1)}%</td>
-        </tr>
-        <tr>
-          <td>Physical & Analytical Chemistry (33)</td>
-          <td>${secStats["Physical & Analytical Chemistry"].correct} / 33</td>
-          <td>${((secStats["Physical & Analytical Chemistry"].correct / 33) * 100).toFixed(1)}%</td>
-        </tr>
+        ${tableRowsHtml}
       </tbody>
     </table>
   `;
