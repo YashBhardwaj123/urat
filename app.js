@@ -174,7 +174,9 @@ function renderQuestion(index) {
 
   // Header info
   document.getElementById('current-q-num').innerText = `Question ${q.displayId} of ${activeQuestions.length}`;
-  document.getElementById('current-section-tag').innerText = `${q.section} (Sec ${q.sectionId})`;
+  const hasDiagram = q.question.includes('svg-diagram-card') || q.question.includes('chem-diagram-box');
+  const diagramTag = hasDiagram ? ' <span class="diagram-badge">📷 Diagram</span>' : '';
+  document.getElementById('current-section-tag').innerHTML = `${q.section} (Sec ${q.sectionId})${diagramTag}`;
   document.getElementById('question-text').innerHTML = q.question;
 
   // Render options
