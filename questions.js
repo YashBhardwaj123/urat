@@ -317,7 +317,7 @@ const rawQuestions = [
     id: 35,
     section: "Organic Chemistry",
     sectionId: "II",
-    question: "Cyclooctatetraene (C₈H₈) is non-aromatic primarily because:",
+    question: "Consider the following aromaticity problem:<br><div class=\"chem-diagram-box\"><pre class=\"chem-diagram\">    HC ==== CH\n   /          \\\n  HC          CH\n   \\          /\n    HC ==== CH</pre></div>Cyclooctatetraene (C₈H₈) is non-aromatic primarily because:",
     options: [
       "It has 4n π electrons and adopts a tub-shaped non-planar geometry",
       "It has 4n+2 π electrons",
@@ -349,7 +349,7 @@ const rawQuestions = [
     id: 38,
     section: "Organic Chemistry",
     sectionId: "II",
-    question: "Identify the chiral descriptor (R/S) at C-2 and C-3 of the following Fischer projection of D-tartaric acid [C2: H(left)-OH(right), C3: HO(left)-H(right)]:",
+    question: "Identify the chiral descriptor (R/S) at C-2 and C-3 of the following Fischer projection of D-tartaric acid:<br><div class=\"chem-diagram-box\"><pre class=\"chem-diagram\">        COOH\n         |\n    H ---+--- OH   (C-2)\n         |\n   HO ---+--- H    (C-3)\n         |\n        COOH</pre></div>",
     options: ["(2R, 3R)", "(2R, 3S)", "(2S, 3R)", "(2S, 3S)"],
     correctIndex: 0, // (2R, 3R)
     explanation: "<strong>Step-by-Step Explanation:</strong><br>1. CIP Priorities at C-2: -OH (1) > -CH(OH)COOH (2) > -COOH (3) > -H (4).<br>2. Applying Fischer rules yields <strong>(2R, 3R)</strong> configuration for D-tartaric acid."
@@ -376,7 +376,7 @@ const rawQuestions = [
     id: 41,
     section: "Organic Chemistry",
     sectionId: "II",
-    question: "The product P of the reaction C₆H₅-NH-OH --(dil. H₂SO₄ / H₂O)--> [ P ] is:",
+    question: "The product P of the following rearrangement is:<br><div class=\"chem-diagram-box\"><pre class=\"chem-diagram\">  C₆H₅-NH-OH  ──(dil. H₂SO₄ / H₂O)──>  [ P ]</pre></div>",
     options: ["p-Aminophenol", "Aniline", "Nitrosobenzene", "Azobenzene"],
     correctIndex: 0, // p-Aminophenol
     explanation: "<strong>Step-by-Step Explanation:</strong><br>1. Acid-catalyzed rearrangement of N-phenylhydroxylamine yields <strong>p-aminophenol</strong> (Bamberger rearrangement)."
@@ -385,7 +385,7 @@ const rawQuestions = [
     id: 42,
     section: "Organic Chemistry",
     sectionId: "II",
-    question: "What is the stereochemical relationship between Fischer projections (I) (2S, 3S) and (II) (2R, 3S)?",
+    question: "What is the relationship between the two structures shown below?<br><div class=\"chem-diagram-box\"><pre class=\"chem-diagram\">      CH₃                      CH₃\n       |                        |\n  H ---+--- OH            HO ---+--- H\n       |                        |\n  H ---+--- Cl             H ---+--- Cl\n       |                        |\n      CH₃                      CH₃\n     (I)                      (II)</pre></div>",
     options: ["Enantiomers", "Diastereomers", "Identical compounds", "Structural isomers"],
     correctIndex: 1, // Diastereomers
     explanation: "<strong>Step-by-Step Explanation:</strong><br>1. Structure I has (2S, 3S) and Structure II has (2R, 3S).<br>2. Inverting 1 chiral center while keeping the other identical yields <strong>Diastereomers</strong>."
@@ -592,7 +592,7 @@ const rawQuestions = [
     id: 65,
     section: "Organic Chemistry",
     sectionId: "II",
-    question: "The Newman projection of n-butane with a 60° dihedral angle between methyl groups corresponds to which conformation?",
+    question: "The Newman projection shown below corresponds to which conformation of n-butane?<br><div class=\"chem-diagram-box\"><pre class=\"chem-diagram\">       CH₃\n      /\n     /\n  H +--- H\n   / \\\n  H   CH₃</pre></div>",
     options: ["Anti-periplanar (staggered)", "Gauche (skew)", "Fully eclipsed", "Partially eclipsed"],
     correctIndex: 1, // Gauche (skew)
     explanation: "<strong>Step-by-Step Explanation:</strong><br>1. In n-butane, 60° dihedral angle between two -CH₃ groups defines the <strong>Gauche (skew) conformation</strong>."
