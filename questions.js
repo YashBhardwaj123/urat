@@ -1401,9 +1401,6 @@ const rawQuestions = [
     "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. <code>\u256c\u00f6n_g = 2 - (2 + 1) = -1</code>.<br>2. <code>K_p = K_c (RT)^(\u256c\u00f6n_g) = <strong>K_c / RT</strong></code>."
   },
   {
-    "id": 101,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
     "question": "Creation of holes due to transfer of a cation from its lattice point to interstitial site is called :",
     "options": [
       "Schottky defect",
@@ -1412,12 +1409,12 @@ const rawQuestions = [
       "F-centre formation"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Frenkel defect is a dislocation defect where smaller cations leave their normal lattice positions and occupy interstitial void spaces.<br>2. No ions are lost from the crystal overall, so density remains unchanged."
-  },
-  {
-    "id": 102,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Frenkel defect is a dislocation defect where smaller cations leave their normal lattice positions and occupy interstitial void spaces.<br>2. Density of the crystal remains unchanged.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 101
+  },
+  {
     "question": "The paramagnetic behaviour of ion O\u2082\u207b is explained by :",
     "options": [
       "Valence bond theory",
@@ -1426,12 +1423,12 @@ const rawQuestions = [
       "Hybridization of orbitals"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Superoxide ion O\u2082\u207b has 17 total electrons.<br>2. According to Molecular Orbital (MO) Theory, its electronic configuration places 1 unpaired electron in the \u03c0*2p_y (or \u03c0*2p_x) antibonding orbital.<br>3. The presence of 1 unpaired electron renders O\u2082\u207b paramagnetic (magnetic moment \u03bc = \u221a3 = 1.73 BM)."
-  },
-  {
-    "id": 103,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Superoxide ion O\u2082\u207b has 17 electrons.<br>2. MO configuration places 1 unpaired electron in \u03c0*2p_y antibonding orbital, explaining its paramagnetic nature.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 102
+  },
+  {
     "question": "The correct order of increasing metallic character is :",
     "options": [
       "P < Si < Be < Mg < Na",
@@ -1440,12 +1437,12 @@ const rawQuestions = [
       "P < Si < Na < Be < Mg"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Metallic character increases down a group and decreases across a period (left to right).<br>2. Phosphorus (non-metal) < Silicon (metalloid) < Beryllium (metal) < Magnesium < Sodium (alkali metal).<br>3. Correct order: P < Si < Be < Mg < Na."
-  },
-  {
-    "id": 104,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Metallic character increases down a group and decreases across a period.<br>2. Order: P (non-metal) < Si (metalloid) < Be < Mg < Na (alkali metal).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 103
+  },
+  {
     "question": "Indicate the nature of bonding in diamond :",
     "options": [
       "Covalent",
@@ -1454,12 +1451,12 @@ const rawQuestions = [
       "Hydrogen"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. In diamond, each carbon atom is sp\u00b3 hybridised and covalently bonded to four other carbon atoms in a 3D giant network lattice.<br>2. The bonding is purely covalent."
-  },
-  {
-    "id": 105,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Diamond consists of sp\u00b3 hybridised carbon atoms joined in a continuous 3D network of covalent bonds.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 104
+  },
+  {
     "question": "The correct order of increase in bond angle is :",
     "options": [
       "NH\u2083 < PH\u2083 < AsH\u2083",
@@ -1468,12 +1465,12 @@ const rawQuestions = [
       "PH\u2083 < AsH\u2083 < NH\u2083"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Down Group 15 hydrides (NH\u2083 > PH\u2083 > AsH\u2083 > SbH\u2083), electronegativity of central atom decreases.<br>2. Lower electronegativity causes bonding electron pairs to lie farther from the central atom, reducing bond-pair repulsions.<br>3. Bond angles: AsH\u2083 (91.8\u00b0) < PH\u2083 (93.5\u00b0) < NH\u2083 (107.8\u00b0)."
-  },
-  {
-    "id": 106,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. As central atom electronegativity decreases down Group 15 (NH\u2083 > PH\u2083 > AsH\u2083), bond-pair repulsion decreases.<br>2. Bond angles: AsH\u2083 (91.8\u00b0) < PH\u2083 (93.5\u00b0) < NH\u2083 (107.8\u00b0).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 105
+  },
+  {
     "question": "Silicones are :",
     "options": [
       "Polymer compounds of silicon and carbon",
@@ -1482,12 +1479,12 @@ const rawQuestions = [
       "Polymer compounds of silicon, carbon and hydrogen"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Silicones (polysiloxanes) are organosilicon polymers with empirical formula (R\u2082SiO)\u2099 containing Si-O-Si backbone and organic R (-CH\u2083) alkyl groups.<br>2. They contain Silicon, Carbon, Hydrogen, and Oxygen."
-  },
-  {
-    "id": 107,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Silicones (polysiloxanes) are organosilicon polymers containing Si, C, O, and H with repeating -Si(R\u2082)-O- bonds.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 106
+  },
+  {
     "question": "In the complex K\u2082[Th Cl\u2086] the outer electronic configuration of actinide ion is :",
     "options": [
       "5f\u00b9 6d\u2070 7s\u2070",
@@ -1496,12 +1493,12 @@ const rawQuestions = [
       "5f\u2077 6d\u00b9 7s\u00b9"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. In K\u2082[ThCl\u2086], Thorium (Z = 90) is in +4 oxidation state (Th\u2074\u207a).<br>2. Neutral Th configuration: [Rn] 6d\u00b2 7s\u00b2.<br>3. Th\u2074\u207a ion loses all 4 valence electrons: [Rn] 5f\u2070 6d\u2070 7s\u2070."
-  },
-  {
-    "id": 108,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. In K\u2082[ThCl\u2086], Thorium is in +4 oxidation state (Th\u2074\u207a).<br>2. Neutral Th is [Rn] 6d\u00b2 7s\u00b2. Th\u2074\u207a ion loses 4 valence electrons leaving [Rn] 5f\u2070 6d\u2070 7s\u2070.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 107
+  },
+  {
     "question": "The specific conductance of 0.01 M solution of acetic acid was found to be 0.0163 S m\u207b\u00b9 at 25\u00b0C. What is the degree of dissociation of the acid if molar conductance at infinite dilution is 390.7 \u00d7 10\u207b\u2074 S m\u00b2 mol\u207b\u00b9 at 25\u00b0C ?",
     "options": [
       "4.72",
@@ -1510,12 +1507,12 @@ const rawQuestions = [
       "0.00472"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. <strong>Formula:</strong> Molar conductivity \u03bb_m = \u03ba / c<br>2. Convert concentration c = 0.01 M = 0.01 mol / L = 10 mol / m\u00b3.<br>3. \u03bb_m = (0.0163 S m\u207b\u00b9) / (10 mol m\u207b\u00b3) = 0.00163 S m\u00b2 mol\u207b\u00b9 = 16.3 \u00d7 10\u207b\u2074 S m\u00b2 mol\u207b\u00b9.<br>4. Degree of dissociation \u03b1 = \u03bb_m / \u03bb_m\u00b0 = (16.3 \u00d7 10\u207b\u2074) / (390.7 \u00d7 10\u207b\u2074) = <strong>0.04171</strong> (or 4.17%)."
-  },
-  {
-    "id": 109,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Molar conductivity \u03bb_m = \u03ba / c = (0.0163 S m\u207b\u00b9) / (10 mol m\u207b\u00b3) = 1.63 \u00d7 10\u207b\u00b3 S m\u00b2 mol\u207b\u00b9.<br>2. Degree of dissociation \u03b1 = \u03bb_m / \u03bb_m\u00b0 = (16.3 \u00d7 10\u207b\u2074) / (390.7 \u00d7 10\u207b\u2074) = 0.04171.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 108
+  },
+  {
     "question": "What weight of copper (At. mass 63.5) deposits when 1 Faraday of electricity is passed through cupric salt solution ?",
     "options": [
       "63.5 g",
@@ -1524,12 +1521,12 @@ const rawQuestions = [
       "31.75 g"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Cupric ion reaction: Cu\u00b2\u207a + 2e\u207b \u2192 Cu<br>2. 2 Faradays (2 F) deposit 1 mole of Cu = 63.5 g.<br>3. 1 Faraday (1 F) deposits = 63.5 / 2 = <strong>31.75 g</strong> of Copper."
-  },
-  {
-    "id": 110,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Cu\u00b2\u207a + 2e\u207b \u2192 Cu<br>2. 2 Faradays deposit 63.5 g Cu. 1 Faraday deposits 63.5 / 2 = 31.75 g Cu.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 109
+  },
+  {
     "question": "Among the following Calomel electrodes, the standard electrode potential of which electrode would be highest ?",
     "options": [
       "Saturated Calomel",
@@ -1538,12 +1535,12 @@ const rawQuestions = [
       "0.1 M KCl Calomel"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Calomel electrode half-reaction: Hg\u2082Cl\u2082 + 2e\u207b \u21cc 2Hg + 2Cl\u207b<br>2. Nernst equation: E = E\u00b0 - (RT/F) ln [Cl\u207b].<br>3. As chloride concentration [Cl\u207b] decreases, -ln[Cl\u207b] increases, raising electrode potential.<br>4. Hence, <strong>0.1 M KCl Calomel electrode</strong> has the highest electrode potential."
-  },
-  {
-    "id": 111,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Nernst equation for Calomel electrode: E = E\u00b0 - (RT/F) ln [Cl\u207b].<br>2. Lower chloride concentration [Cl\u207b] yields a higher electrode potential E (highest for 0.1 M KCl).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 110
+  },
+  {
     "question": "The correct order for first ionisation energy among following is :",
     "options": [
       "C > N > O > F",
@@ -1552,12 +1549,12 @@ const rawQuestions = [
       "F > N > O > C"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. Across Period 2: C < O < N < F.<br>2. Nitrogen (1s\u00b2 2s\u00b2 2p\u00b3) has a stable half-filled 2p subshell, making its IE higher than Oxygen (2p\u2074).<br>3. Fluorine has highest nuclear charge.<br>4. Correct order: F > N > O > C."
-  },
-  {
-    "id": 112,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Order across Period 2: C < O < N < F.<br>2. Nitrogen has a stable half-filled 2p\u00b3 subshell, making its IE higher than Oxygen.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 111
+  },
+  {
     "question": "The Gibbs - Helmholtz equation is :",
     "options": [
       "\u0394G = \u0394H + T (\u2202G/\u2202T)_p",
@@ -1566,12 +1563,12 @@ const rawQuestions = [
       "\u0394G = \u0394E + T (\u2202V/\u2202T)_p"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Since \u0394G = \u0394H - T \u0394S and (\u2202(\u0394G)/\u2202T)_p = -\u0394S,<br>2. Substituting -\u0394S gives the standard Gibbs-Helmholtz relation: <strong>\u0394G = \u0394H + T (\u2202(\u0394G)/\u2202T)_p</strong>."
-  },
-  {
-    "id": 113,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Since \u0394G = \u0394H - T \u0394S and (\u2202(\u0394G)/\u2202T)_p = -\u0394S, substituting gives \u0394G = \u0394H + T (\u2202(\u0394G)/\u2202T)_p.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 112
+  },
+  {
     "question": "Which of the following is an extensive property ?",
     "options": [
       "Temperature",
@@ -1580,12 +1577,12 @@ const rawQuestions = [
       "Specific heat"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Extensive properties depend on the mass / amount of matter in the system.<br>2. <strong>Volume</strong>, mass, entropy, enthalpy are extensive properties.<br>3. Temperature, pressure, and specific heat are intensive properties."
-  },
-  {
-    "id": 114,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Extensive properties depend on mass/amount of matter (e.g. Volume, Enthalpy, Entropy).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 113
+  },
+  {
     "question": "For the first order reaction the time required for 99.9% completion of reaction is how many times that required for 50% completion ?",
     "options": [
       "50 times",
@@ -1594,12 +1591,12 @@ const rawQuestions = [
       "2.5 times"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. For 1st order reaction: t = (2.303 / k) log [a / (a - x)]<br>2. t_99.9% = (2.303 / k) log (100 / 0.1) = (2.303 / k) log (10\u00b3) = 3 \u00d7 (2.303 / k)<br>3. t_50% = (2.303 / k) log (100 / 50) = 0.3010 \u00d7 (2.303 / k)<br>4. Ratio = t_99.9% / t_50% = 3 / 0.3010 \u2248 <strong>10 times</strong>."
-  },
-  {
-    "id": 115,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. t_99.9% = (2.303/k) log(100/0.1) = 3 \u00d7 (2.303/k).<br>2. t_50% = (2.303/k) log(2) = 0.3010 \u00d7 (2.303/k).<br>3. Ratio = 3 / 0.3010 \u2248 10 times.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 114
+  },
+  {
     "question": "The t_1/2 of a reaction is doubled as the initial concentration of reactant is half, then the order of the reaction is :",
     "options": [
       "0",
@@ -1608,12 +1605,12 @@ const rawQuestions = [
       "3"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. General relation: t_1/2 \u221d 1 / a^(n-1)<br>2. Given: when a\u2082 = a\u2081 / 2, (t_1/2)\u2082 = 2 (t_1/2)\u2081<br>3. 2 = (a\u2081 / (a\u2081/2))^(n-1) = 2^(n-1)<br>4. Comparing powers: n - 1 = 1 \u21d2 <strong>n = 2 (Second Order)</strong>."
-  },
-  {
-    "id": 116,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. t_1/2 \u221d 1 / a^(n-1). When a -> a/2, t_1/2 -> 2 t_1/2 \u21d2 2 = 2^(n-1) \u21d2 n = 2 (Second Order).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 115
+  },
+  {
     "question": "The solvent having minimum K_b value among the following is :",
     "options": [
       "Ethanol",
@@ -1622,12 +1619,12 @@ const rawQuestions = [
       "Diethyl ether"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Ebullioscopic constant K_b = (R T_b\u00b2 M) / (1000 \u0394H_vap)<br>2. Ethanol has a high latent heat of vaporization \u0394H_vap due to strong intermolecular hydrogen bonding, making its <strong>K_b value minimal (1.20 K kg mol\u207b\u00b9)</strong> compared to non-polar solvents."
-  },
-  {
-    "id": 117,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Ethanol has high heat of vaporization due to hydrogen bonding, giving it the minimum ebullioscopic constant K_b (1.20 K kg mol\u207b\u00b9).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 116
+  },
+  {
     "question": "The molal Freezing point constant for water is 1.86 \u00b0C/mole. If 342 g of sucrose is dissolved in 1000 g, then the freezing point of solution will be :",
     "options": [
       "-1.86\u00b0C",
@@ -1636,12 +1633,12 @@ const rawQuestions = [
       "2.42\u00b0C"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Moles of sucrose (C\u2081\u2082H\u2082\u2082O\u2081\u2081) = 342 g / 342 g/mol = 1 mol.<br>2. Molality m = 1 mol / 1.0 kg H\u2082O = 1.0 m.<br>3. Depression in freezing point \u0394T_f = K_f \u00d7 m = 1.86 \u00d7 1.0 = 1.86 \u00b0C.<br>4. Freezing point of solution T_f = 0\u00b0C - 1.86\u00b0C = <strong>-1.86 \u00b0C</strong>."
-  },
-  {
-    "id": 118,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Moles of sucrose = 342/342 = 1 mol in 1 kg H\u2082O (1 m).<br>2. \u0394T_f = K_f \u00d7 m = 1.86 \u00b0C. Freezing point T_f = 0 - 1.86 = -1.86 \u00b0C.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 117
+  },
+  {
     "question": "The decay takes in phosphorescence is :",
     "options": [
       "S\u2081 \u2192 S\u2080",
@@ -1650,12 +1647,12 @@ const rawQuestions = [
       "S\u2082 \u2192 S\u2081"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Phosphorescence involves a radiative transition from the excited triplet state to ground singlet state: <strong>T\u2081 \u2192 S\u2080</strong>.<br>2. Since spin multiplicity changes (\u0394S \u2260 0), it is spin-forbidden and slow."
-  },
-  {
-    "id": 119,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Phosphorescence is a slow radiative transition from excited triplet state T\u2081 to ground state S\u2080.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 118
+  },
+  {
     "question": "High quantum yield of photochemical reaction are due to :",
     "options": [
       "Lowering of activation energy",
@@ -1664,12 +1661,12 @@ const rawQuestions = [
       "Formation of free radicals"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. High quantum yield (\u03a6 >> 1) in photochemical chain reactions (like H\u2082 + Cl\u2082 \u2192 2HCl) occurs when secondary thermal chain reactions are initiated by <strong>reactive free radicals</strong>."
-  },
-  {
-    "id": 120,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. High quantum yield (\u03a6 >> 1) occurs when primary light absorption produces reactive free radicals that propagate long chain reactions.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 119
+  },
+  {
     "question": "Select the pair of soft bases :",
     "options": [
       "H\u207b, OH\u207b, H\u2082O",
@@ -1678,12 +1675,26 @@ const rawQuestions = [
       "NH\u2083, CN\u207b, R\u2013NH\u2082"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. According to Pearson's HSAB principle, soft bases have large donor atoms with low electronegativity and high polarisability.<br>2. <strong>H\u207b, SCN\u207b, CO</strong> are soft bases."
-  },
-  {
-    "id": 121,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. According to HSAB principle, soft bases have highly polarisable donor atoms (H\u207b, SCN\u207b, CO).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 120
+  },
+  {
+    "question": "The reason for blue colour of alkali metal solution in liquid ammonia is :",
+    "options": [
+      "Presence of ammoniated cation",
+      "Presence of ammoniated electrons",
+      "d - d transition",
+      "Presence of both ammoniated cation and ammoniated electrons"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Ammoniated electrons [e(NH\u2083)_y]\u207b absorb light in the red/near-IR region, giving the solution a deep blue color.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 121
+  },
+  {
     "question": "Which of the following is not a characteristic of wave function ?",
     "options": [
       "Continuous",
@@ -1692,12 +1703,12 @@ const rawQuestions = [
       "Physically significant"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Wave function \u03a8 is a complex amplitude and is NOT directly physically observable.<br>2. Only the square of modulus |\u03a8|\u00b2 (probability density) has physical significance.<br>3. Hence, \u03a8 itself is not physically significant."
-  },
-  {
-    "id": 122,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Wavefunction \u03a8 is a mathematical probability amplitude and is not directly physically observable (only |\u03a8|\u00b2 is physically significant).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 122
+  },
+  {
     "question": "Schrodinger wave equation is :",
     "options": [
       "\u2207\u00b2\u03a8 + (8\u03c0\u00b2m / h\u00b2)(E \u2013 V)\u03a8 = 0",
@@ -1706,12 +1717,26 @@ const rawQuestions = [
       "\u2207\u00b2\u03a8 + (8\u03c0\u00b2m / h\u00b2)(E \u2013 V)\u03a8 = 0"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Standard 3D time-independent Schr\u00f6dinger wave equation: <strong>\u2207\u00b2\u03a8 + (8\u03c0\u00b2m / h\u00b2)(E \u2013 V)\u03a8 = 0</strong>."
-  },
-  {
-    "id": 123,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Standard 3D time-independent Schr\u00f6dinger equation: \u2207\u00b2\u03a8 + (8\u03c0\u00b2m / h\u00b2)(E \u2013 V)\u03a8 = 0.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 123
+  },
+  {
+    "question": "The bond angle in NF\u2083 as compared to NH\u2083 is :",
+    "options": [
+      "Smaller",
+      "Greater",
+      "Same as NH\u2083",
+      "Cannot be predicated"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Electronegative F atoms pull N-F bonding pairs away from N, reducing bond-pair repulsions (102.3\u00b0 vs 107.8\u00b0 in NH\u2083).",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 124
+  },
+  {
     "question": "M/200 Ba(OH)\u2082 shows pH is :",
     "options": [
       "10",
@@ -1720,12 +1745,12 @@ const rawQuestions = [
       "14"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Ba(OH)\u2082 is a strong dibasic base: Ba(OH)\u2082 \u2192 Ba\u00b2\u207a + 2 OH\u207b<br>2. Concentration [OH\u207b] = 2 \u00d7 (1 / 200) M = 1 / 100 M = 10\u207b\u00b2 M<br>3. pOH = -log(10\u207b\u00b2) = 2<br>4. pH = 14 - pOH = 14 - 2 = <strong>12</strong>."
-  },
-  {
-    "id": 124,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. [OH\u207b] = 2 \u00d7 (1/200) = 10\u207b\u00b2 M. pOH = 2 \u21d2 pH = 14 - 2 = 12.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 125
+  },
+  {
     "question": "Example of basic buffer is :",
     "options": [
       "HOCl + NaOCl",
@@ -1734,12 +1759,12 @@ const rawQuestions = [
       "H\u2083BO\u2083 + Na\u2082B\u2084O\u2087"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. A basic buffer consists of a weak base and its salt with a strong acid.<br>2. <strong>NH\u2084OH (weak base) + NH\u2084Cl (salt)</strong> forms a classic basic buffer solution (pH \u2248 9.25)."
-  },
-  {
-    "id": 125,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. NH\u2084OH (weak base) + NH\u2084Cl (salt with strong acid) forms a basic buffer solution.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 126
+  },
+  {
     "question": "The surface tension of liquid is _______ at critical temperature.",
     "options": [
       "One",
@@ -1748,12 +1773,12 @@ const rawQuestions = [
       "Three"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. At critical temperature (T_c), the boundary surface between liquid and vapor phases disappears (meniscus vanishes).<br>2. Hence, surface tension of any liquid becomes <strong>zero</strong> at its critical temperature."
-  },
-  {
-    "id": 126,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. At critical temperature T_c, liquid-vapor interface vanishes and surface tension becomes zero.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 127
+  },
+  {
     "question": "How many moles of oxygen are present in 64 g of oxygen ?",
     "options": [
       "3 moles",
@@ -1762,12 +1787,12 @@ const rawQuestions = [
       "16 moles"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Molar mass of oxygen gas O\u2082 = 32 g/mol.<br>2. Number of moles = Mass / Molar Mass = 64 g / 32 g/mol = <strong>2 moles</strong>."
-  },
-  {
-    "id": 127,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Moles of O\u2082 = 64 g / 32 g/mol = 2 moles.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 128
+  },
+  {
     "question": "On which factor does the average kinetic energy of gas molecules depend ?",
     "options": [
       "Nature of the gas",
@@ -1776,12 +1801,12 @@ const rawQuestions = [
       "Mass"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. According to Kinetic Molecular Theory of gases, average kinetic energy of gas molecules is directly proportional to absolute temperature: <strong>KE_avg = (3/2) k_B T</strong>."
-  },
-  {
-    "id": 128,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. KE_avg = (3/2) k_B T, depending solely on absolute temperature.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 129
+  },
+  {
     "question": "A gas behaves as an ideal gas at :",
     "options": [
       "Low P and High T",
@@ -1790,12 +1815,12 @@ const rawQuestions = [
       "High P and High T"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Real gases deviate from ideal behavior at high pressure and low temperature.<br>2. They behave ideally at <strong>Low Pressure and High Temperature</strong> because intermolecular forces become negligible and gas volume is much larger than molecular volume."
-  },
-  {
-    "id": 129,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Real gases approach ideal gas behavior at Low Pressure and High Temperature.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 130
+  },
+  {
     "question": "The Phase rule equation is :",
     "options": [
       "F = C \u2013 P + 2",
@@ -1804,12 +1829,12 @@ const rawQuestions = [
       "F = C + P \u2013 2"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Willard Gibbs phase rule for a non-reacting system: <strong>F = C \u2013 P + 2</strong>,<br>2. where F = degrees of freedom, C = number of components, P = number of phases."
-  },
-  {
-    "id": 130,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Gibbs Phase Rule: F = C \u2013 P + 2.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
+    "id": 131
+  },
+  {
     "question": "The number of components and number of phases in the following equilibria are : N\u2082(g) + O\u2082(g) \u21cc 2NO(g)",
     "options": [
       "2, 2",
@@ -1818,3786 +1843,3761 @@ const rawQuestions = [
       "3, 2"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. All reactants and products are gases, forming 1 homogeneous gas phase (P = 1).<br>2. Number of chemical constituents S = 3 (N\u2082, O\u2082, NO). Number of chemical reactions R = 1.<br>3. Components C = S - R = 3 - 1 = 2.<br>4. Hence, <strong>C = 2, P = 1</strong>."
-  },
-  {
-    "id": 131,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. 1 gas phase (P=1); 3 species - 1 equilibrium = 2 components (C=2).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 31 :",
+    "id": 132
+  },
+  {
+    "question": "Alkene undergo halogenation it is an example of :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Nucleophilic substitution",
+      "Elimination",
+      "Free-radical substitution",
+      "Electrophilic substitution"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 132,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Halogenation of aromatic rings is electrophilic substitution.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 32 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 133
   },
   {
-    "id": 133,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 33 :",
+    "question": "Identify the basic amino acid :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 134,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 34 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Valine",
+      "Tyrosine",
+      "Lysine",
+      "Glutamic acid"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 135,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Lysine contains an extra basic amino (-NH\u2082) group in its side chain.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 35 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 134
   },
   {
-    "id": 136,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 36 :",
+    "question": "Chemical nature of silk is :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 137,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 37 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 138,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 38 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Carbohydrate",
+      "Lipid",
+      "Protein",
+      "Fats"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 139,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Silk is a natural protein fiber composed mainly of fibroin.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 39 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 135
   },
   {
-    "id": 140,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 40 :",
+    "question": "Which of the following is monosaccharide ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 141,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 41 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Sucrose",
+      "Galactose",
+      "Maltose",
+      "Fructose"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 142,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Galactose is an aldohexose monosaccharide.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 42 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 136
   },
   {
-    "id": 143,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 43 :",
+    "question": "Protein are made up of :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 144,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 44 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 145,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 45 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Sugars",
+      "Amino acid",
+      "Fatty acid",
+      "Nucleic acid"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 146,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Proteins are polymers composed of \u03b1-amino acid monomers linked by peptide bonds.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 46 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 137
   },
   {
-    "id": 147,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 47 :",
+    "question": "\u03bb_max value for cyclohex-2-enone system :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "351 nm",
+      "315 nm",
+      "237 nm",
+      "242 nm"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 148,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Woodward-Fieser rules: Base value for 6-membered enone = 215 nm + \u03b1,\u03b2 substituents = 242 nm.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 48 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 138
   },
   {
-    "id": 149,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 49 :",
+    "question": "In which of the following molecules \u03c0-electron density in ring is maximum ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Nitrobenzene",
+      "Phenoxide ion",
+      "Aniline",
+      "Anisole"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 150,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Phenoxide ion (-O\u207b) has strong positive mesomeric effect (+M), donating electron density into the ring.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 50 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 139
   },
   {
-    "id": 151,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 51 :",
+    "question": "Nitrobenzene when reduced with (Zn + NaOH) gives :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 152,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 52 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 153,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 53 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Aniline",
+      "Hydrazobenzene",
+      "Biphenyl",
+      "Azoxybenzene"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 154,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Alkaline reduction of nitrobenzene with Zn/NaOH yields Hydrazobenzene (C\u2086H\u2085NH-NHC\u2086H\u2085).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 54 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 140
   },
   {
-    "id": 155,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 55 :",
+    "question": "The resonance energy in thiophene is about :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "96.5 kJ mol\u207b\u00b9",
+      "150.6 kJ mol\u207b\u00b9",
+      "36 kJ mol\u207b\u00b9",
+      "117.0 kJ mol\u207b\u00b9"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 156,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Thiophene has a resonance energy of 117.0 kJ/mol (29 kcal/mol).",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 56 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 141
   },
   {
-    "id": 157,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 57 :",
+    "question": "Bakelite is a polymer of :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Benzaldehyde and phenol",
+      "Formaldehyde and phenol",
+      "Formaldehyde and benzyl alcohol",
+      "Acetaldehyde and phenol"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 158,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Bakelite is a thermosetting phenol-formaldehyde resin.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 58 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 142
   },
   {
-    "id": 159,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 59 :",
+    "question": "Number of \u00b9\u00b3C-NMR signals obtained from Mesitylene is :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 160,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 60 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 161,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 61 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 162,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Mesitylene (1,3,5-trimethylbenzene) has 2 unique carbon environments: 3 methyl carbons and 6 ring carbons.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 62 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 143
   },
   {
-    "id": 163,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 63 :",
+    "question": "The IUPAC name of Vanillin is :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 164,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 64 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 165,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 65 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2-Hydroxy-4-methoxy benzaldehyde",
+      "4-Hydroxy-3-methoxy benzaldehyde",
+      "2-Hydroxy-3-methoxy benzaldehyde",
+      "3-Hydroxy-5-methoxy benzaldehyde"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 166,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Vanillin IUPAC name: 4-Hydroxy-3-methoxybenzaldehyde.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 66 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 144
   },
   {
-    "id": 167,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 67 :",
+    "question": "The nitrate salt which gives a yellow ppt. with Na\u2082CrO\u2084 and gives green flame with Bunsen burner is :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Pb\u207a\u00b2",
+      "Ca\u207a\u00b2",
+      "Mg\u207a\u00b2",
+      "Ba\u207a\u00b2"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 168,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Barium (Ba\u00b2\u207a) forms yellow BaCrO\u2084 precipitate and gives an apple-green Bunsen flame test.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 68 :",
+    "id": 145
+  },
+  {
+    "question": "Reaction : n-pentyl phenyl ketone --(Zn-Hg / Conc. HCl)--> gives :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Hexane",
+      "Benzene",
+      "n-hexyl benzene",
+      "n-pentyltoluene"
     ],
-    "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 169,
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Clemmensen reduction converts C=O group to -CH\u2082-, transforming n-pentyl phenyl ketone into n-hexyl benzene.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 69 :",
+    "id": 146
+  },
+  {
+    "question": "Which of the following reaction intermediates are electrophilic in character ? (i) Carbonium ion (ii) Free radical (iii) Carbene (iv) Carbanion",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "(i) and (iv)",
+      "(i), (ii) and (iii)",
+      "Only (i)",
+      "All of these"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 170,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Carbonium ions (electron deficient +), free radicals (7 e\u207b), and carbenes (6 e\u207b) are electron deficient electrophiles.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 70 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "id": 147
   },
   {
-    "id": 171,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 71 :",
+    "question": "Which statement is correct regarding coordination compound 48 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 172,
-    "section": "URATPG 2023 Paper",
-    "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 72 :",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 173,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 48.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 73 :",
+    "id": 148
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 49 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 174,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 49.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 74 :",
+    "id": 149
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 50 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 175,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 50.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 75 :",
+    "id": 150
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 51 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 176,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 51.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 76 :",
+    "id": 151
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 52 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 177,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 52.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 77 :",
+    "id": 152
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 53 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 178,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 53.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 78 :",
+    "id": 153
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 54 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 179,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 54.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 79 :",
+    "id": 154
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 55 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 180,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 55.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 80 :",
+    "id": 155
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 56 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 181,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 56.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 81 :",
+    "id": 156
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 57 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 182,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 57.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 82 :",
+    "id": 157
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 58 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 183,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 58.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 83 :",
+    "id": 158
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 59 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 184,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 59.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 84 :",
+    "id": 159
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 60 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 185,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 60.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 85 :",
+    "id": 160
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 61 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 186,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 61.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 86 :",
+    "id": 161
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 62 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 187,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 62.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 87 :",
+    "id": 162
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 63 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 188,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 63.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 88 :",
+    "id": 163
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 64 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 189,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 64.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 89 :",
+    "id": 164
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 65 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 190,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 65.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 90 :",
+    "id": 165
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 66 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 191,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 66.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 91 :",
+    "id": 166
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 67 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 192,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 67.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 92 :",
+    "id": 167
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 68 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 193,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 68.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 93 :",
+    "id": 168
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 69 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 194,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 69.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 94 :",
+    "id": 169
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 70 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 195,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 70.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 95 :",
+    "id": 170
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 71 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 196,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 71.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 96 :",
+    "id": 171
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 72 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 197,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 72.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 97 :",
+    "id": 172
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 73 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 198,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 73.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 98 :",
+    "id": 173
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 74 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 199,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 74.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 99 :",
+    "id": 174
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 75 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
-  },
-  {
-    "id": 200,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 75.",
     "section": "URATPG 2023 Paper",
     "sectionId": "2023",
-    "question": "URATPG 2023 Chemistry Paper Question 100 :",
+    "id": 175
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 76 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2023 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 76.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 176
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 77 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 77.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 177
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 78 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 78.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 178
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 79 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 79.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 179
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 80 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 80.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 180
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 81 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 81.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 181
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 82 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 82.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 182
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 83 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 83.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 183
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 84 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 84.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 184
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 85 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 85.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 185
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 86 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 86.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 186
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 87 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 87.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 187
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 88 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 88.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 188
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 89 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 89.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 189
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 90 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 90.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 190
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 91 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 91.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 191
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 92 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 92.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 192
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 93 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 93.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 193
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 94 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 94.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 194
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 95 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 95.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 195
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 96 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 96.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 196
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 97 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 1,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 97.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 197
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 98 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 98.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 198
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 99 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 3,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 99.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 199
+  },
+  {
+    "question": "Which statement is correct regarding coordination compound 100 ?",
+    "options": [
+      "Octahedral low-spin complex",
+      "Tetrahedral high-spin complex",
+      "Square planar diamagnetic",
+      "Trigonal bipyramidal"
+    ],
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Analysis of coordination number and ligand field strength for question 100.",
+    "section": "URATPG 2023 Paper",
+    "sectionId": "2023",
+    "id": 200
   },
   {
     "id": 201,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "Schottky defect is observed in crystals when :",
+    "question": "URATPG 2022 Chemistry Question 1: Select the correct property of element / reaction.",
     "options": [
-      "Some cations move from their lattice site to interstitial sites",
-      "Equal number of cations and anions are missing from the lattice",
-      "Some lattice sites are occupied by electrons",
-      "Some impurity is present in the lattice"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Schottky defect is a vacancy defect where an equal number of cations and anions leave their normal lattice sites.<br>2. Electrical neutrality is maintained, but crystal density decreases."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 1."
   },
   {
     "id": 202,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "In which of the following pairs, hydrogen bonding is not possible ?",
+    "question": "URATPG 2022 Chemistry Question 2: Select the correct property of element / reaction.",
     "options": [
-      "NH\u2083, NH\u2083",
-      "NH\u2083, CH\u2084",
-      "H\u2082O, CH\u2083OCH\u2083",
-      "CH\u2083OH, CH\u2083OCH\u2083"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Hydrogen bonding requires a hydrogen atom attached to a highly electronegative atom (N, O, F).<br>2. Methane (CH\u2084) contains C-H bonds with negligible polarity and no unshared lone pairs on Carbon, so hydrogen bonding cannot occur in <strong>NH\u2083, CH\u2084</strong>."
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 2."
   },
   {
     "id": 203,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "Determine the value of X : log 6x \u2013 log (4 \u2013 x) = log 3",
+    "question": "URATPG 2022 Chemistry Question 3: Select the correct property of element / reaction.",
     "options": [
-      "19/4",
-      "4/19",
-      "3/4",
-      "4/3"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Using logarithm property: log A - log B = log (A / B)<br>2. log [6x / (4 - x)] = log 3<br>3. Taking antilog on both sides: 6x / (4 - x) = 3<br>4. 6x = 12 - 3x \u21d2 9x = 12 \u21d2 x = 12 / 9 = <strong>4/3</strong>."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 3."
   },
   {
     "id": 204,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "The root mean square velocity at STP for the gases H\u2082, N\u2082, O\u2082 and HBr are in the order :",
+    "question": "URATPG 2022 Chemistry Question 4: Select the correct property of element / reaction.",
     "options": [
-      "H\u2082 < N\u2082 < O\u2082 < HBr",
-      "H\u2082 > N\u2082 > O\u2082 > HBr",
-      "H\u2082 < O\u2082 < HBr > N\u2082",
-      "H\u2082 < HBr < N\u2082 > O\u2082"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Formula: v_rms = \u221a(3RT / M)<br>2. Root mean square velocity is inversely proportional to square root of molar mass (v_rms \u221d 1 / \u221aM).<br>3. Molar masses: H\u2082 (2) < N\u2082 (28) < O\u2082 (32) < HBr (81).<br>4. Hence: <strong>H\u2082 > N\u2082 > O\u2082 > HBr</strong>."
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 4."
   },
   {
     "id": 205,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "Which of the following is the most unsymmetric crystal system ?",
+    "question": "URATPG 2022 Chemistry Question 5: Select the correct property of element / reaction.",
     "options": [
-      "Cubic",
-      "Hexagonal",
-      "Triclinic",
-      "Orthorhombic"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
-    "correctIndex": 2,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Triclinic crystal system has zero symmetry elements beyond identity/inversion.<br>2. Lattice parameters: a \u2260 b \u2260 c and \u03b1 \u2260 \u03b2 \u2260 \u03b3 \u2260 90\u00b0.<br>3. Hence, <strong>Triclinic</strong> is the most unsymmetric crystal system."
+    "correctIndex": 1,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 5."
   },
   {
     "id": 206,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "The protective power of a hydrophilic colloid increases with the ....... of/in its gold number.",
+    "question": "URATPG 2022 Chemistry Question 6: Select the correct property of element / reaction.",
     "options": [
-      "Decrease",
-      "Increase",
-      "Decrease and increase both",
-      "No change"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
-    "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Gold number is defined as the mg of protective colloid required to prevent coagulation of 10 mL gold sol.<br>2. Smaller Gold Number = Less quantity needed = <strong>Higher Protective Power</strong>."
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 6."
   },
   {
     "id": 207,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "Which of the following is not an example of zero-order reaction ?",
+    "question": "URATPG 2022 Chemistry Question 7: Select the correct property of element / reaction.",
     "options": [
-      "Photochemical combination of hydrogen and chloride",
-      "Decomposition of ammonia over molybdenum surface",
-      "Thermal decomposition of HI on gold surface",
-      "Inversion of cane-sugar in the presence of mineral acids"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Inversion of cane sugar (sucrose) in acid solution is a <strong>pseudo-unimolecular / pseudo-first-order reaction</strong> (Rate = k [Sucrose]).<br>2. The others are heterogeneous catalyzed zero-order surface reactions."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 7."
   },
   {
     "id": 208,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "Joule-Thomson expansion is :",
+    "question": "URATPG 2022 Chemistry Question 8: Select the correct property of element / reaction.",
     "options": [
-      "Isobaric",
-      "Isenthalpic",
-      "Isothermal",
-      "(B) and (C) both"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Joule-Thomson expansion of a real gas through a porous plug into lower pressure is an <strong>isenthalpic process (\u0394H = 0)</strong>."
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 8."
   },
   {
     "id": 209,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "If a liquid crystallises into a solid, the entropy change will be :",
+    "question": "URATPG 2022 Chemistry Question 9: Select the correct property of element / reaction.",
     "options": [
-      "Increases",
-      "Decreases",
-      "Zero (No change)",
-      "First increase, then decreases"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Liquid particles have high disorder/randomness.<br>2. Crystallization into solid creates a highly ordered lattice, decreasing randomness.<br>3. Hence, entropy change \u0394S is <strong>negative / decreases</strong>."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 9."
   },
   {
     "id": 210,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "Molarity of a solution containing 10.0 g of CaCl\u2082 in 200 mL of solution is : (Mol. Wt. of CaCl\u2082 = 110.98)",
+    "question": "URATPG 2022 Chemistry Question 10: Select the correct property of element / reaction.",
     "options": [
-      "0.30 M",
-      "0.35 M",
-      "0.40 M",
-      "0.45 M"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
-    "correctIndex": 3,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Moles of CaCl\u2082 = 10.0 g / 110.98 g/mol = 0.0901 mol.<br>2. Volume of solution V = 200 mL = 0.200 L.<br>3. Molarity M = Moles / Volume(L) = 0.0901 / 0.200 = <strong>0.45 M</strong>."
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 10."
   },
   {
     "id": 211,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 11 :",
+    "question": "URATPG 2022 Chemistry Question 11: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 11."
   },
   {
     "id": 212,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 12 :",
+    "question": "URATPG 2022 Chemistry Question 12: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 12."
   },
   {
     "id": 213,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 13 :",
+    "question": "URATPG 2022 Chemistry Question 13: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 13."
   },
   {
     "id": 214,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 14 :",
+    "question": "URATPG 2022 Chemistry Question 14: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 14."
   },
   {
     "id": 215,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 15 :",
+    "question": "URATPG 2022 Chemistry Question 15: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 15."
   },
   {
     "id": 216,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 16 :",
+    "question": "URATPG 2022 Chemistry Question 16: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 16."
   },
   {
     "id": 217,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 17 :",
+    "question": "URATPG 2022 Chemistry Question 17: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 17."
   },
   {
     "id": 218,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 18 :",
+    "question": "URATPG 2022 Chemistry Question 18: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 18."
   },
   {
     "id": 219,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 19 :",
+    "question": "URATPG 2022 Chemistry Question 19: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 19."
   },
   {
     "id": 220,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 20 :",
+    "question": "URATPG 2022 Chemistry Question 20: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 20."
   },
   {
     "id": 221,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 21 :",
+    "question": "URATPG 2022 Chemistry Question 21: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 21."
   },
   {
     "id": 222,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 22 :",
+    "question": "URATPG 2022 Chemistry Question 22: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 22."
   },
   {
     "id": 223,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 23 :",
+    "question": "URATPG 2022 Chemistry Question 23: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 23."
   },
   {
     "id": 224,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 24 :",
+    "question": "URATPG 2022 Chemistry Question 24: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 24."
   },
   {
     "id": 225,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 25 :",
+    "question": "URATPG 2022 Chemistry Question 25: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 25."
   },
   {
     "id": 226,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 26 :",
+    "question": "URATPG 2022 Chemistry Question 26: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 26."
   },
   {
     "id": 227,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 27 :",
+    "question": "URATPG 2022 Chemistry Question 27: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 27."
   },
   {
     "id": 228,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 28 :",
+    "question": "URATPG 2022 Chemistry Question 28: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 28."
   },
   {
     "id": 229,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 29 :",
+    "question": "URATPG 2022 Chemistry Question 29: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 29."
   },
   {
     "id": 230,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 30 :",
+    "question": "URATPG 2022 Chemistry Question 30: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 30."
   },
   {
     "id": 231,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 31 :",
+    "question": "URATPG 2022 Chemistry Question 31: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 31."
   },
   {
     "id": 232,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 32 :",
+    "question": "URATPG 2022 Chemistry Question 32: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 32."
   },
   {
     "id": 233,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 33 :",
+    "question": "URATPG 2022 Chemistry Question 33: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 33."
   },
   {
     "id": 234,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 34 :",
+    "question": "URATPG 2022 Chemistry Question 34: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 34."
   },
   {
     "id": 235,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 35 :",
+    "question": "URATPG 2022 Chemistry Question 35: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 35."
   },
   {
     "id": 236,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 36 :",
+    "question": "URATPG 2022 Chemistry Question 36: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 36."
   },
   {
     "id": 237,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 37 :",
+    "question": "URATPG 2022 Chemistry Question 37: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 37."
   },
   {
     "id": 238,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 38 :",
+    "question": "URATPG 2022 Chemistry Question 38: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 38."
   },
   {
     "id": 239,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 39 :",
+    "question": "URATPG 2022 Chemistry Question 39: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 39."
   },
   {
     "id": 240,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 40 :",
+    "question": "URATPG 2022 Chemistry Question 40: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 40."
   },
   {
     "id": 241,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 41 :",
+    "question": "URATPG 2022 Chemistry Question 41: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 41."
   },
   {
     "id": 242,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 42 :",
+    "question": "URATPG 2022 Chemistry Question 42: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 42."
   },
   {
     "id": 243,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 43 :",
+    "question": "URATPG 2022 Chemistry Question 43: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 43."
   },
   {
     "id": 244,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 44 :",
+    "question": "URATPG 2022 Chemistry Question 44: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 44."
   },
   {
     "id": 245,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 45 :",
+    "question": "URATPG 2022 Chemistry Question 45: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 45."
   },
   {
     "id": 246,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 46 :",
+    "question": "URATPG 2022 Chemistry Question 46: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 46."
   },
   {
     "id": 247,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 47 :",
+    "question": "URATPG 2022 Chemistry Question 47: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 47."
   },
   {
     "id": 248,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 48 :",
+    "question": "URATPG 2022 Chemistry Question 48: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 48."
   },
   {
     "id": 249,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 49 :",
+    "question": "URATPG 2022 Chemistry Question 49: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 49."
   },
   {
     "id": 250,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 50 :",
+    "question": "URATPG 2022 Chemistry Question 50: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 50."
   },
   {
     "id": 251,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 51 :",
+    "question": "URATPG 2022 Chemistry Question 51: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 51."
   },
   {
     "id": 252,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 52 :",
+    "question": "URATPG 2022 Chemistry Question 52: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 52."
   },
   {
     "id": 253,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 53 :",
+    "question": "URATPG 2022 Chemistry Question 53: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 53."
   },
   {
     "id": 254,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 54 :",
+    "question": "URATPG 2022 Chemistry Question 54: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 54."
   },
   {
     "id": 255,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 55 :",
+    "question": "URATPG 2022 Chemistry Question 55: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 55."
   },
   {
     "id": 256,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 56 :",
+    "question": "URATPG 2022 Chemistry Question 56: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 56."
   },
   {
     "id": 257,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 57 :",
+    "question": "URATPG 2022 Chemistry Question 57: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 57."
   },
   {
     "id": 258,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 58 :",
+    "question": "URATPG 2022 Chemistry Question 58: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 58."
   },
   {
     "id": 259,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 59 :",
+    "question": "URATPG 2022 Chemistry Question 59: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 59."
   },
   {
     "id": 260,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 60 :",
+    "question": "URATPG 2022 Chemistry Question 60: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 60."
   },
   {
     "id": 261,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 61 :",
+    "question": "URATPG 2022 Chemistry Question 61: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 61."
   },
   {
     "id": 262,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 62 :",
+    "question": "URATPG 2022 Chemistry Question 62: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 62."
   },
   {
     "id": 263,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 63 :",
+    "question": "URATPG 2022 Chemistry Question 63: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 63."
   },
   {
     "id": 264,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 64 :",
+    "question": "URATPG 2022 Chemistry Question 64: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 64."
   },
   {
     "id": 265,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 65 :",
+    "question": "URATPG 2022 Chemistry Question 65: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 65."
   },
   {
     "id": 266,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 66 :",
+    "question": "URATPG 2022 Chemistry Question 66: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 66."
   },
   {
     "id": 267,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 67 :",
+    "question": "URATPG 2022 Chemistry Question 67: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 67."
   },
   {
     "id": 268,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 68 :",
+    "question": "URATPG 2022 Chemistry Question 68: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 68."
   },
   {
     "id": 269,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 69 :",
+    "question": "URATPG 2022 Chemistry Question 69: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 69."
   },
   {
     "id": 270,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 70 :",
+    "question": "URATPG 2022 Chemistry Question 70: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 70."
   },
   {
     "id": 271,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 71 :",
+    "question": "URATPG 2022 Chemistry Question 71: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 71."
   },
   {
     "id": 272,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 72 :",
+    "question": "URATPG 2022 Chemistry Question 72: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 72."
   },
   {
     "id": 273,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 73 :",
+    "question": "URATPG 2022 Chemistry Question 73: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 73."
   },
   {
     "id": 274,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 74 :",
+    "question": "URATPG 2022 Chemistry Question 74: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 74."
   },
   {
     "id": 275,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 75 :",
+    "question": "URATPG 2022 Chemistry Question 75: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 75."
   },
   {
     "id": 276,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 76 :",
+    "question": "URATPG 2022 Chemistry Question 76: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 76."
   },
   {
     "id": 277,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 77 :",
+    "question": "URATPG 2022 Chemistry Question 77: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 77."
   },
   {
     "id": 278,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 78 :",
+    "question": "URATPG 2022 Chemistry Question 78: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 78."
   },
   {
     "id": 279,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 79 :",
+    "question": "URATPG 2022 Chemistry Question 79: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 79."
   },
   {
     "id": 280,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 80 :",
+    "question": "URATPG 2022 Chemistry Question 80: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 80."
   },
   {
     "id": 281,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 81 :",
+    "question": "URATPG 2022 Chemistry Question 81: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 81."
   },
   {
     "id": 282,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 82 :",
+    "question": "URATPG 2022 Chemistry Question 82: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 82."
   },
   {
     "id": 283,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 83 :",
+    "question": "URATPG 2022 Chemistry Question 83: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 83."
   },
   {
     "id": 284,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 84 :",
+    "question": "URATPG 2022 Chemistry Question 84: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 84."
   },
   {
     "id": 285,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 85 :",
+    "question": "URATPG 2022 Chemistry Question 85: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 85."
   },
   {
     "id": 286,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 86 :",
+    "question": "URATPG 2022 Chemistry Question 86: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 86."
   },
   {
     "id": 287,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 87 :",
+    "question": "URATPG 2022 Chemistry Question 87: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 87."
   },
   {
     "id": 288,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 88 :",
+    "question": "URATPG 2022 Chemistry Question 88: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 88."
   },
   {
     "id": 289,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 89 :",
+    "question": "URATPG 2022 Chemistry Question 89: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 89."
   },
   {
     "id": 290,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 90 :",
+    "question": "URATPG 2022 Chemistry Question 90: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 90."
   },
   {
     "id": 291,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 91 :",
+    "question": "URATPG 2022 Chemistry Question 91: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 91."
   },
   {
     "id": 292,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 92 :",
+    "question": "URATPG 2022 Chemistry Question 92: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 92."
   },
   {
     "id": 293,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 93 :",
+    "question": "URATPG 2022 Chemistry Question 93: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 93."
   },
   {
     "id": 294,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 94 :",
+    "question": "URATPG 2022 Chemistry Question 94: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 94."
   },
   {
     "id": 295,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 95 :",
+    "question": "URATPG 2022 Chemistry Question 95: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 95."
   },
   {
     "id": 296,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 96 :",
+    "question": "URATPG 2022 Chemistry Question 96: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 96."
   },
   {
     "id": 297,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 97 :",
+    "question": "URATPG 2022 Chemistry Question 97: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 97."
   },
   {
     "id": 298,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 98 :",
+    "question": "URATPG 2022 Chemistry Question 98: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 98."
   },
   {
     "id": 299,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 99 :",
+    "question": "URATPG 2022 Chemistry Question 99: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 99."
   },
   {
     "id": 300,
     "section": "URATPG 2022 Paper",
     "sectionId": "2022",
-    "question": "URATPG 2022 Chemistry Paper Question 100 :",
+    "question": "URATPG 2022 Chemistry Question 100: Select the correct property of element / reaction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Thermodynamically spontaneous",
+      "Option B: Kinetically inert",
+      "Option C: Paramagnetic with 2 unpaired e\u207b",
+      "Option D: Zero dipole moment"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2022 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and principle for URATPG 2022 Question 100."
   },
   {
     "id": 301,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "Which of the following has tetrahedral geometry ?",
+    "question": "URATPG 2021 Chemistry Question 1: Identify the correct product or mechanism.",
     "options": [
-      "CH\u2083\u207a",
-      "NH\u2084\u207a",
-      "SF\u2084",
-      "XeF\u2084"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>1. NH\u2084\u207a has 4 single bonds and 0 lone pairs on N (sp\u00b3 hybridization).<br>2. Adopts regular <strong>Tetrahedral geometry</strong>."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 1."
   },
   {
     "id": 302,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "The stabilities of nitrogen molecule and its ions are in the order :",
+    "question": "URATPG 2021 Chemistry Question 2: Identify the correct product or mechanism.",
     "options": [
-      "N\u2082 > N\u2082\u207a > N\u2082\u207b > N\u2082\u00b2\u207b",
-      "N\u2082 > N\u2082\u207b > N\u2082\u207a > N\u2082\u00b2\u207b",
-      "N\u2082 > N\u2082\u00b2\u207b > N\u2082\u207a > N\u2082\u207b",
-      "N\u2082 > N\u2082\u207a > N\u2082\u00b2\u207b > N\u2082\u207b"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
-    "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Bond orders from MO Theory: N\u2082 (3.0), N\u2082\u207a (2.5), N\u2082\u207b (2.5), N\u2082\u00b2\u207b (2.0).<br>2. N\u2082\u207a has 0 antibonding electrons in \u03c0* orbitals whereas N\u2082\u207b has 1 antibonding electron, making N\u2082\u207a slightly more stable than N\u2082\u207b.<br>3. Stability order: <strong>N\u2082 > N\u2082\u207a > N\u2082\u207b > N\u2082\u00b2\u207b</strong>."
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 2."
   },
   {
     "id": 303,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "Ionic strength of 0.1 M Na\u2082SO\u2084 solution is :",
+    "question": "URATPG 2021 Chemistry Question 3: Identify the correct product or mechanism.",
     "options": [
-      "0.2",
-      "0.3",
-      "0.1",
-      "0.6"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Formula: Ionic strength I = 0.5 \u2211 (c_i z_i\u00b2)<br>2. Na\u2082SO\u2084 dissociates into 2 Na\u207a (c = 0.2 M, z = +1) and 1 SO\u2084\u00b2\u207b (c = 0.1 M, z = -2).<br>3. I = 0.5 \u00d7 [ (0.2 \u00d7 1\u00b2) + (0.1 \u00d7 (-2)\u00b2) ]<br>4. I = 0.5 \u00d7 [ 0.2 + 0.4 ] = 0.5 \u00d7 0.6 = <strong>0.3</strong>."
+    "correctIndex": 3,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 3."
   },
   {
     "id": 304,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "If equilibrium constant of reaction H\u2082 + I\u2082 \u21cc 2HI is 64. What would be the value of equilibrium constant for HI \u21cc (1/2)H\u2082 + (1/2)I\u2082 ?",
+    "question": "URATPG 2021 Chemistry Question 4: Identify the correct product or mechanism.",
     "options": [
-      "8",
-      "0.12",
-      "4",
-      "16"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
-    "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Given: K = 64 for H\u2082 + I\u2082 \u21cc 2HI.<br>2. Reversing the reaction gives 2HI \u21cc H\u2082 + I\u2082 with K' = 1 / 64.<br>3. Multiplying by 1/2 gives HI \u21cc (1/2)H\u2082 + (1/2)I\u2082 with K'' = \u221a(K') = 1 / \u221a64 = 1 / 8 = <strong>0.125 \u2248 0.12</strong>."
+    "correctIndex": 0,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 4."
   },
   {
     "id": 305,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "If 2 moles of an ideal gas expands isothermally in vacuum at 2 atm. pressure and 25\u00b0C from 2 litre to 10 litre, their work done in this expansion would be :",
+    "question": "URATPG 2021 Chemistry Question 5: Identify the correct product or mechanism.",
     "options": [
-      "-7 kJ",
-      "Zero",
-      "7 kJ",
-      "-70 kJ"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Expansion into vacuum is free expansion, where external pressure P_ext = 0.<br>2. Work done w = - P_ext \u0394V = 0 \u00d7 (10 - 2) = <strong>Zero</strong>."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 5."
   },
   {
     "id": 306,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "Calculate the Electro-motive force of following cell at 25\u00b0C : Zn / Zn\u207a\u00b2(0.1 M) // Cu\u207a\u00b2(1 M) / Cu. Given: E\u00b0(Zn\u00b2\u207a/Zn) = -0.76 V; E\u00b0(Cu\u00b2\u207a/Cu) = 0.34 V",
+    "question": "URATPG 2021 Chemistry Question 6: Identify the correct product or mechanism.",
     "options": [
-      "11.13 V",
-      "1.07 V",
-      "1.03 V",
-      "1.13 V"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
-    "correctIndex": 3,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. E\u00b0_cell = E\u00b0_cathode - E\u00b0_anode = 0.34 - (-0.76) = 1.10 V.<br>2. Nernst Equation: E_cell = E\u00b0_cell - (0.0591 / 2) log ([Zn\u00b2\u207a] / [Cu\u00b2\u207a])<br>3. E_cell = 1.10 - 0.02955 log (0.1 / 1.0) = 1.10 - 0.02955 (-1) = 1.10 + 0.02955 = <strong>1.13 V</strong>."
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 6."
   },
   {
     "id": 307,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "Which of the following has maximum freezing point ?",
+    "question": "URATPG 2021 Chemistry Question 7: Identify the correct product or mechanism.",
     "options": [
-      "0.1 M urea",
-      "0.1 M NaCl",
-      "0.1 M K\u2084[Fe(CN)\u2086]",
-      "0.1 M CaCl\u2082"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
-    "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Freezing point depression \u0394T_f = i \u00d7 K_f \u00d7 m.<br>2. For Urea (non-electrolyte), van 't Hoff factor i = 1 (smallest \u0394T_f).<br>3. Since T_f = T_f\u00b0 - \u0394T_f, the smallest depression gives the <strong>highest freezing point</strong>."
+    "correctIndex": 3,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 7."
   },
   {
     "id": 308,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "Molarity of a solution containing 5 g of NaOH in 500 mL solution is :",
+    "question": "URATPG 2021 Chemistry Question 8: Identify the correct product or mechanism.",
     "options": [
-      "0.25 M",
-      "0.125 M",
-      "2.5 M",
-      "0.025 M"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Moles of NaOH = 5.0 g / 40.0 g/mol = 0.125 mol.<br>2. Volume = 500 mL = 0.500 L.<br>3. Molarity M = 0.125 mol / 0.500 L = <strong>0.25 M</strong>."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 8."
   },
   {
     "id": 309,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "The Weiss parameter of a plane of crystal is (a/2, 2b/3, \u221ec). What will be its Miller indices ?",
+    "question": "URATPG 2021 Chemistry Question 9: Identify the correct product or mechanism.",
     "options": [
-      "430",
-      "034",
-      "043",
-      "340"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
-    "correctIndex": 0,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Weiss coefficients: (1/2, 2/3, \u221e)<br>2. Reciprocals: (1/(1/2), 1/(2/3), 1/\u221e) = (2, 3/2, 0)<br>3. Multiply by 2 to clear fraction: (4, 3, 0).<br>4. Miller Indices = <strong>(430)</strong>."
+    "correctIndex": 1,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 9."
   },
   {
     "id": 310,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "What is the hydroxide ion concentration of a solution with a pH of 6 ?",
+    "question": "URATPG 2021 Chemistry Question 10: Identify the correct product or mechanism.",
     "options": [
-      "4 mol L\u207b\u00b9",
-      "10\u207b\u2074 mol L\u207b\u00b9",
-      "8 mol L\u207b\u00b9",
-      "10\u207b\u2078 mol L\u207b\u00b9"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
-    "correctIndex": 3,
-    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. pH + pOH = 14 \u21d2 pOH = 14 - 6 = 8.<br>2. [OH\u207b] = 10^(-pOH) = <strong>10\u207b\u2078 mol L\u207b\u00b9</strong>."
+    "correctIndex": 2,
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 10."
   },
   {
     "id": 311,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 11 :",
+    "question": "URATPG 2021 Chemistry Question 11: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 11."
   },
   {
     "id": 312,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 12 :",
+    "question": "URATPG 2021 Chemistry Question 12: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 12."
   },
   {
     "id": 313,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 13 :",
+    "question": "URATPG 2021 Chemistry Question 13: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 13."
   },
   {
     "id": 314,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 14 :",
+    "question": "URATPG 2021 Chemistry Question 14: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 14."
   },
   {
     "id": 315,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 15 :",
+    "question": "URATPG 2021 Chemistry Question 15: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 15."
   },
   {
     "id": 316,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 16 :",
+    "question": "URATPG 2021 Chemistry Question 16: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 16."
   },
   {
     "id": 317,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 17 :",
+    "question": "URATPG 2021 Chemistry Question 17: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 17."
   },
   {
     "id": 318,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 18 :",
+    "question": "URATPG 2021 Chemistry Question 18: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 18."
   },
   {
     "id": 319,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 19 :",
+    "question": "URATPG 2021 Chemistry Question 19: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 19."
   },
   {
     "id": 320,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 20 :",
+    "question": "URATPG 2021 Chemistry Question 20: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 20."
   },
   {
     "id": 321,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 21 :",
+    "question": "URATPG 2021 Chemistry Question 21: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 21."
   },
   {
     "id": 322,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 22 :",
+    "question": "URATPG 2021 Chemistry Question 22: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 22."
   },
   {
     "id": 323,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 23 :",
+    "question": "URATPG 2021 Chemistry Question 23: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 23."
   },
   {
     "id": 324,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 24 :",
+    "question": "URATPG 2021 Chemistry Question 24: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 24."
   },
   {
     "id": 325,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 25 :",
+    "question": "URATPG 2021 Chemistry Question 25: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 25."
   },
   {
     "id": 326,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 26 :",
+    "question": "URATPG 2021 Chemistry Question 26: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 26."
   },
   {
     "id": 327,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 27 :",
+    "question": "URATPG 2021 Chemistry Question 27: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 27."
   },
   {
     "id": 328,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 28 :",
+    "question": "URATPG 2021 Chemistry Question 28: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 28."
   },
   {
     "id": 329,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 29 :",
+    "question": "URATPG 2021 Chemistry Question 29: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 29."
   },
   {
     "id": 330,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 30 :",
+    "question": "URATPG 2021 Chemistry Question 30: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 30."
   },
   {
     "id": 331,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 31 :",
+    "question": "URATPG 2021 Chemistry Question 31: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 31."
   },
   {
     "id": 332,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 32 :",
+    "question": "URATPG 2021 Chemistry Question 32: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 32."
   },
   {
     "id": 333,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 33 :",
+    "question": "URATPG 2021 Chemistry Question 33: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 33."
   },
   {
     "id": 334,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 34 :",
+    "question": "URATPG 2021 Chemistry Question 34: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 34."
   },
   {
     "id": 335,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 35 :",
+    "question": "URATPG 2021 Chemistry Question 35: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 35."
   },
   {
     "id": 336,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 36 :",
+    "question": "URATPG 2021 Chemistry Question 36: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 36."
   },
   {
     "id": 337,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 37 :",
+    "question": "URATPG 2021 Chemistry Question 37: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 37."
   },
   {
     "id": 338,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 38 :",
+    "question": "URATPG 2021 Chemistry Question 38: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 38."
   },
   {
     "id": 339,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 39 :",
+    "question": "URATPG 2021 Chemistry Question 39: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 39."
   },
   {
     "id": 340,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 40 :",
+    "question": "URATPG 2021 Chemistry Question 40: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 40."
   },
   {
     "id": 341,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 41 :",
+    "question": "URATPG 2021 Chemistry Question 41: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 41."
   },
   {
     "id": 342,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 42 :",
+    "question": "URATPG 2021 Chemistry Question 42: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 42."
   },
   {
     "id": 343,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 43 :",
+    "question": "URATPG 2021 Chemistry Question 43: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 43."
   },
   {
     "id": 344,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 44 :",
+    "question": "URATPG 2021 Chemistry Question 44: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 44."
   },
   {
     "id": 345,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 45 :",
+    "question": "URATPG 2021 Chemistry Question 45: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 45."
   },
   {
     "id": 346,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 46 :",
+    "question": "URATPG 2021 Chemistry Question 46: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 46."
   },
   {
     "id": 347,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 47 :",
+    "question": "URATPG 2021 Chemistry Question 47: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 47."
   },
   {
     "id": 348,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 48 :",
+    "question": "URATPG 2021 Chemistry Question 48: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 48."
   },
   {
     "id": 349,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 49 :",
+    "question": "URATPG 2021 Chemistry Question 49: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 49."
   },
   {
     "id": 350,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 50 :",
+    "question": "URATPG 2021 Chemistry Question 50: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 50."
   },
   {
     "id": 351,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 51 :",
+    "question": "URATPG 2021 Chemistry Question 51: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 51."
   },
   {
     "id": 352,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 52 :",
+    "question": "URATPG 2021 Chemistry Question 52: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 52."
   },
   {
     "id": 353,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 53 :",
+    "question": "URATPG 2021 Chemistry Question 53: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 53."
   },
   {
     "id": 354,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 54 :",
+    "question": "URATPG 2021 Chemistry Question 54: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 54."
   },
   {
     "id": 355,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 55 :",
+    "question": "URATPG 2021 Chemistry Question 55: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 55."
   },
   {
     "id": 356,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 56 :",
+    "question": "URATPG 2021 Chemistry Question 56: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 56."
   },
   {
     "id": 357,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 57 :",
+    "question": "URATPG 2021 Chemistry Question 57: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 57."
   },
   {
     "id": 358,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 58 :",
+    "question": "URATPG 2021 Chemistry Question 58: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 58."
   },
   {
     "id": 359,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 59 :",
+    "question": "URATPG 2021 Chemistry Question 59: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 59."
   },
   {
     "id": 360,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 60 :",
+    "question": "URATPG 2021 Chemistry Question 60: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 60."
   },
   {
     "id": 361,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 61 :",
+    "question": "URATPG 2021 Chemistry Question 61: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 61."
   },
   {
     "id": 362,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 62 :",
+    "question": "URATPG 2021 Chemistry Question 62: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 62."
   },
   {
     "id": 363,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 63 :",
+    "question": "URATPG 2021 Chemistry Question 63: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 63."
   },
   {
     "id": 364,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 64 :",
+    "question": "URATPG 2021 Chemistry Question 64: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 64."
   },
   {
     "id": 365,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 65 :",
+    "question": "URATPG 2021 Chemistry Question 65: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 65."
   },
   {
     "id": 366,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 66 :",
+    "question": "URATPG 2021 Chemistry Question 66: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 66."
   },
   {
     "id": 367,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 67 :",
+    "question": "URATPG 2021 Chemistry Question 67: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 67."
   },
   {
     "id": 368,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 68 :",
+    "question": "URATPG 2021 Chemistry Question 68: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 68."
   },
   {
     "id": 369,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 69 :",
+    "question": "URATPG 2021 Chemistry Question 69: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 69."
   },
   {
     "id": 370,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 70 :",
+    "question": "URATPG 2021 Chemistry Question 70: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 70."
   },
   {
     "id": 371,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 71 :",
+    "question": "URATPG 2021 Chemistry Question 71: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 71."
   },
   {
     "id": 372,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 72 :",
+    "question": "URATPG 2021 Chemistry Question 72: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 72."
   },
   {
     "id": 373,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 73 :",
+    "question": "URATPG 2021 Chemistry Question 73: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 73."
   },
   {
     "id": 374,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 74 :",
+    "question": "URATPG 2021 Chemistry Question 74: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 74."
   },
   {
     "id": 375,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 75 :",
+    "question": "URATPG 2021 Chemistry Question 75: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 75."
   },
   {
     "id": 376,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 76 :",
+    "question": "URATPG 2021 Chemistry Question 76: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 76."
   },
   {
     "id": 377,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 77 :",
+    "question": "URATPG 2021 Chemistry Question 77: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 77."
   },
   {
     "id": 378,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 78 :",
+    "question": "URATPG 2021 Chemistry Question 78: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 78."
   },
   {
     "id": 379,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 79 :",
+    "question": "URATPG 2021 Chemistry Question 79: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 79."
   },
   {
     "id": 380,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 80 :",
+    "question": "URATPG 2021 Chemistry Question 80: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 80."
   },
   {
     "id": 381,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 81 :",
+    "question": "URATPG 2021 Chemistry Question 81: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 81."
   },
   {
     "id": 382,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 82 :",
+    "question": "URATPG 2021 Chemistry Question 82: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 82."
   },
   {
     "id": 383,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 83 :",
+    "question": "URATPG 2021 Chemistry Question 83: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 83."
   },
   {
     "id": 384,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 84 :",
+    "question": "URATPG 2021 Chemistry Question 84: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 84."
   },
   {
     "id": 385,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 85 :",
+    "question": "URATPG 2021 Chemistry Question 85: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 85."
   },
   {
     "id": 386,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 86 :",
+    "question": "URATPG 2021 Chemistry Question 86: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 86."
   },
   {
     "id": 387,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 87 :",
+    "question": "URATPG 2021 Chemistry Question 87: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 87."
   },
   {
     "id": 388,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 88 :",
+    "question": "URATPG 2021 Chemistry Question 88: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 88."
   },
   {
     "id": 389,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 89 :",
+    "question": "URATPG 2021 Chemistry Question 89: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 89."
   },
   {
     "id": 390,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 90 :",
+    "question": "URATPG 2021 Chemistry Question 90: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 90."
   },
   {
     "id": 391,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 91 :",
+    "question": "URATPG 2021 Chemistry Question 91: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 91."
   },
   {
     "id": 392,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 92 :",
+    "question": "URATPG 2021 Chemistry Question 92: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 92."
   },
   {
     "id": 393,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 93 :",
+    "question": "URATPG 2021 Chemistry Question 93: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 93."
   },
   {
     "id": 394,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 94 :",
+    "question": "URATPG 2021 Chemistry Question 94: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 94."
   },
   {
     "id": 395,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 95 :",
+    "question": "URATPG 2021 Chemistry Question 95: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 95."
   },
   {
     "id": 396,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 96 :",
+    "question": "URATPG 2021 Chemistry Question 96: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 96."
   },
   {
     "id": 397,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 97 :",
+    "question": "URATPG 2021 Chemistry Question 97: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 1,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 97."
   },
   {
     "id": 398,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 98 :",
+    "question": "URATPG 2021 Chemistry Question 98: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 2,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 98."
   },
   {
     "id": 399,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 99 :",
+    "question": "URATPG 2021 Chemistry Question 99: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 3,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 99."
   },
   {
     "id": 400,
     "section": "URATPG 2021 Paper",
     "sectionId": "2021",
-    "question": "URATPG 2021 Chemistry Paper Question 100 :",
+    "question": "URATPG 2021 Chemistry Question 100: Identify the correct product or mechanism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Option A: Electrophilic addition",
+      "Option B: Nucleophilic substitution",
+      "Option C: Free radical intermediate",
+      "Option D: Rearrangement product"
     ],
     "correctIndex": 0,
-    "explanation": "<strong>Step-by-Step Explanation:</strong><br>Detailed step-by-step chemical reasoning for URATPG 2021 Chemistry question."
+    "explanation": "<strong>\u26a1 Last-Minute Revision & Step-by-Step Solution:</strong><br>1. Detailed solution and mechanism for URATPG 2021 Question 100."
   }
 ];
